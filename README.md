@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./media_files/aimped.png" alt="Image description" />
+  <img src="./aimped.png" alt="Image description" />
 </p>
 
 # aimped blog post  
