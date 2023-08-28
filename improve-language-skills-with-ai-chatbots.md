@@ -4,18 +4,27 @@ Practicing conversation is essential for mastering a new language. AI chatbots p
 ## AI Chatbots That Talk Like Humans  
 
 AI Amlified (Aimped) has developed remarkably human-like chatbots you can practice languages with. Each bot has a unique personality and background story:   
-You can try running the character bot you want by clicking on the link below. It will help you speed up your language learning.   
 
-!["grumpy-old-man"](assets/improve-language-skills-with-ai-chatbots/grumpy-old-man.png)   
-- *Grumpy Victor*, a curmudgeonly character  
-!["sarcastic-adult-man"](assets/improve-language-skills-with-ai-chatbots/sarcastic-adult-man.png)    
-- *Sarcastic Michael* with dry, ironic responses    
-!["friendly-young-lady"](assets/improve-language-skills-with-ai-chatbots/friendly-young-lady.png)  
-- *Friendly Bella* who answers cheerfully    
+<div style="text-align:center">
+  <img src="assets/improve-language-skills-with-ai-chatbots/grumpy-old-man.png" alt="grumpy-old-man" width="300" height="300" />
+  <p><em>Grumpy Victor</em>, a curmudgeonly character.</p>
+</div>
+
+<div style="text-align:center">
+  <img src="assets/improve-language-skills-with-ai-chatbots/sarcastic-adult-man.png" alt="sarcastic-adult-man" width="300" height="300" />
+  <p><em>Sarcastic Michael</em>, with dry, ironic responses.</p>
+</div>
+  
+<div style="text-align:center">
+  <img src="assets/improve-language-skills-with-ai-chatbots/friendly-young-lady.png" alt="friendly-young-lady" width="300" height="300" />
+  <p><em>Friendly Bella</em>, who answers cheerfully.</p>
+</div>
+
 Grumpy, friendly, and sarcastic bots in roles like hotel receptionist, Starbucks barista, and McDonald’s cashier  
 
 Advanced AI enables natural conversations. The bots respond in complete sentences with proper grammar and seem to understand context. Their realistic human voices take the experience to the next level.  
 
+To accelerate your language learning, you may click on the provided <a href="https://dev.aimped.ai/models">link</a> to launch the character bot of your choice.
 ## Why Chat with AI Bots?
 These AI chatbots provide key benefits for language learners:
 
