@@ -38,4 +38,4 @@ These AI chatbots provide key benefits for language learners:
 ## Get Started Chatting in Your Target Language
 Stop wasting time on boring language drills. Start engaging in lively conversations tailored to your level and interests. Sign up now to chat with AI and take your language skills to new heights!  
 
-You can try other bots from aimped.ai as well.  
+You can try other bots from <a href="https://dev.aimped.ai/models">aimped.ai</a> as well.  
