@@ -6,17 +6,17 @@ Practicing conversation is essential for mastering a new language. AI chatbots p
 AI Amlified (Aimped) has developed remarkably human-like chatbots you can practice languages with. Each bot has a unique personality and background story:   
 
 <div style="text-align:center">
-  <img src="assets/improve-language-skills-with-ai-chatbots/grumpy-old-man.png" alt="grumpy-old-man" width="300" height="300" />
+  <img src="media_files/improve-language-skills-with-ai-chatbots/grumpy-old-man.png" alt="grumpy-old-man" width="300" height="300" />
   <p><em>Grumpy Victor</em>, a curmudgeonly character.</p>
 </div>
 
 <div style="text-align:center">
-  <img src="assets/improve-language-skills-with-ai-chatbots/sarcastic-adult-man.png" alt="sarcastic-adult-man" width="300" height="300" />
+  <img src="media_files/improve-language-skills-with-ai-chatbots/sarcastic-adult-man.png" alt="sarcastic-adult-man" width="300" height="300" />
   <p><em>Sarcastic Michael</em>, with dry, ironic responses.</p>
 </div>
   
 <div style="text-align:center">
-  <img src="assets/improve-language-skills-with-ai-chatbots/friendly-young-lady.png" alt="friendly-young-lady" width="300" height="300" />
+  <img src="media_files/improve-language-skills-with-ai-chatbots/friendly-young-lady.png" alt="friendly-young-lady" width="300" height="300" />
   <p><em>Friendly Bella</em>, who answers cheerfully.</p>
 </div>
 
