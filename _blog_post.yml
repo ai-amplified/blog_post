@@ -11,7 +11,7 @@
     - education
     - language
 
- - local: test_post_1
+- local: test_post_1
   title: Power of Artificial Intelligence
   thumbnail: media_files/test_post_1/test_post_1.png
   author: Russell C.
@@ -20,7 +20,7 @@
     - AI
     - future
 
- - local: test_post_2
+- local: test_post_2
   title: Kubernetes in DevOps
   thumbnail: media_files/test_post_1/test_post_2.png
   author: Russell C.
@@ -29,7 +29,7 @@
     - kubernetes
     - DevOps
 
- - local: test_post_3
+- local: test_post_3
   title: Optimizing Caching Strategies
   thumbnail: media_files/test_post_1/test_post_3.png
   author: Russell C.
