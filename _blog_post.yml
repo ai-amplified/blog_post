@@ -1,21 +1,10 @@
 # use tinypng.com to optimize your "thumbnail" img
 
-- local: improve-language-skills-with-ai-chatbots
-  title: Chat with AI to Boost Your Language Skills
-  thumbnail: media_files/improve-language-skills-with-ai-chatbots/improve-language-skills-with-ai-chatbots.png
-  author: Russell C.
-  date: August 30, 2023
-  tags:
-    - llm
-    - chatgpt
-    - education
-    - language
-
 - local: test_post_1
   title: Power of Artificial Intelligence
   thumbnail: media_files/test_post_1/test_post_1.png
   author: Russell C.
-  date: August 30, 2023
+  date: Eylül 1, 2023
   tags:
     - AI
     - future
@@ -24,7 +13,7 @@
   title: Kubernetes in DevOps
   thumbnail: media_files/test_post_1/test_post_2.png
   author: Russell C.
-  date: August 30, 2023
+  date: Ekim 30, 2023
   tags:
     - kubernetes
     - DevOps
@@ -33,8 +22,19 @@
   title: Optimizing Caching Strategies
   thumbnail: media_files/test_post_1/test_post_3.png
   author: Russell C.
-  date: August 30, 2023
+  date: Ekim 6, 2023
   tags:
     - caching
     - memory
     - performance
+
+ - local: improve-language-skills-with-ai-chatbots
+  title: Chat with AI to Boost Your Language Skills
+  thumbnail: media_files/improve-language-skills-with-ai-chatbots/improve-language-skills-with-ai-chatbots.png
+  author: Russell C.
+  date: Ekim 30, 2023
+  tags:
+    - llm
+    - chatgpt
+    - education
+    - language
