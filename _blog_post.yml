@@ -1,5 +1,3 @@
-# use tinypng.com to optimize your "thumbnail" img
-
 - local: test_post_1
   title: Power of Artificial Intelligence
   thumbnail: media_files/test_post_1/test_post_1.png
