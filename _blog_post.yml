@@ -18,6 +18,16 @@
     - education
     - language    
 
+- local: test_post_3
+  title: Optimizing Caching Strategies
+  thumbnail: media_files/test_post_1/test_post_3.png
+  author: Russell C.
+  date: Ekim 6, 2023
+  tags:
+    - caching
+    - memory
+    - performance    
+
 - local: test_post_2
   title: Kubernetes in DevOps
   thumbnail: media_files/test_post_1/test_post_2.png
@@ -27,12 +37,4 @@
     - kubernetes
     - DevOps
 
-- local: test_post_3
-  title: Optimizing Caching Strategies
-  thumbnail: media_files/test_post_1/test_post_3.png
-  author: Russell C.
-  date: Ekim 6, 2023
-  tags:
-    - caching
-    - memory
-    - performance
+
