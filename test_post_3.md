@@ -32,7 +32,6 @@ Determine which resources or data in your containerized application are suitable
 Integrate caching logic into your Python code. Here's an example of caching the result of a costly function:  
 
 ```python
-Copy code
 @cache.memoize()
 def expensive_function(arg1, arg2):
     # Expensive computation here
@@ -43,7 +42,6 @@ def expensive_function(arg1, arg2):
 To prevent cache memory from growing indefinitely, set expiration policies. Python caching libraries often allow you to specify TTL (Time To Live) for cached items.
 
 ```python
-Copy code
 cache = cachetools.LRUCache(maxsize=100, ttl=3600)  # Cache items expire after 1 hour
 ```
 ### 5. Monitor and Optimize
@@ -55,7 +53,6 @@ Now, let's address optimizing both CPU cache and disk usage within containerized
 Optimizing CPU cache usage is essential for improving computational performance. Here's a generic Python code example that demonstrates how to leverage CPU cache by minimizing memory access:  
 
 ```python
-Copy code
 # Inefficient code with frequent memory access
 result = 0
 for i in range(1, 1000000):
@@ -72,7 +69,6 @@ In the optimized code, we reduce memory access by calculating the sum of values 
 Efficient disk usage is critical to container stability, especially when dealing with container images and file I/O operations. Here's a generic Python code example that demonstrates how to optimize disk usage by using efficient file operations:
 
 ```python
-Copy code
 # Inefficient file I/O
 with open('large_file.txt', 'r') as file:
     data = file.read()
