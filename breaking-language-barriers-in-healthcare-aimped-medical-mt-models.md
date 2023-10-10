@@ -1,7 +1,7 @@
 # Breaking Language Barriers in Healthcare: Aimped AI's Medical Machine Translation Models
 
 
-![Machine Translation](blog_post/media_files/breaking-language-barriers-in-healthcare-aimped-medical-mt-models/machine-translation-md.jpg)
+![Machine Translation](media_files/breaking-language-barriers-in-healthcare-aimped-medical-mt-models/machine-translation-md.jpg)
 
 The healthcare industry is undergoing major changes in a period of rapid technological development and it is becoming increasingly critical to share the latest advancements in the medical field across the globe. In this context, Aimped AI offers important support to healthcare professionals with its Medical Machine Translation models. Aimped AI helps translate health-related information into different languages using the power of artificial intelligence. This ensures that medical texts are translated quickly, accurately, and comprehensibly. Aimped AI offers an effective solution to overcome language barriers in healthcare by providing easier access to medical information and making healthcare knowledges more accessible globally. Let's take a closer look at Aimped AI's Medical Machine Translation models and focus on how healthcare professionals overcome communication barriers.
 
