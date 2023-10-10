@@ -20,5 +20,22 @@ BLEU scores were used to measure the success of the Medical Machine Translation 
 | en-to-pt    | **0.620**    | 0.557  | 0.570 |        |   
 | pt-to-en    | **0.669**    | 0.582  | 0.610 |        |     
 
+Aimped AI olarak, aşağıdaki dil çiftleri için Medical Machine Translation modelleri hazırladık:
+
+- [English-German](https://dev.aimped.ai/models/119)
+- [German-English](https://dev.aimped.ai/models/114)
+- [English-French](https://dev.aimped.ai/models/126)
+- [French-English](https://dev.aimped.ai/models/127)
+- [English-Portuguese](https://dev.aimped.ai/models/135)
+- [Portuguese-English](https://dev.aimped.ai/models/136)
+- [English-Romanian](https://dev.aimped.ai/models/180)
+- [Romanian-English](https://dev.aimped.ai/models/181)
+- [English-Chinese](https://dev.aimped.ai/models/124)
+- [Chinese-English](https://dev.aimped.ai/models/125)
+- [English-Spanish](https://dev.aimped.ai/models/122)
+- [Spanish-English](https://dev.aimped.ai/models/123)
+- [English-Turkish](https://dev.aimped.ai/models/145)
+- [Turkish-English](https://dev.aimped.ai/models/128)
+
 
 
