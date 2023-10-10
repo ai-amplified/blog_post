@@ -1,7 +1,7 @@
-[]: # BEGIN: 6f6c7d6f6c7d
 # Breaking Language Barriers in Healthcare: Aimped AI's Medical Machine Translation Models
 
 ![Machine Translation](breaking-language-barriers-in-healthcare-aimped-medical-mt-models/machine-translation-md.jpg)
+
 
 The healthcare industry is undergoing major changes in a period of rapid technological development and it is becoming increasingly critical to share the latest advancements in the medical field across the globe. In this context, Aimped AI offers important support to healthcare professionals with its Medical Machine Translation models. Aimped AI helps translate health-related information into different languages using the power of artificial intelligence. This ensures that medical texts are translated quickly, accurately, and comprehensibly. Aimped AI offers an effective solution to overcome language barriers in healthcare by providing easier access to medical information and making healthcare knowledges more accessible globally. Let's take a closer look at Aimped AI's Medical Machine Translation models and focus on how healthcare professionals overcome communication barriers.
 
@@ -9,6 +9,7 @@ Medical Machine Translation models developed by Aimped AI stand out with their s
 
 Medical Machine Translation models are the product of a precise and meticulous work. For the development of these models, articles published in the medical field were meticulously analyzed and parallel articles in different languages were collected. The collected data was preprocessed to identify matching sentences with high translation quality and Medical Machine Translation models were trained using artificial neural networks.
 BLEU scores were used to measure the success of the Medical Machine Translation models. These scores are known as a widely used metric for evaluating the quality of machine translation. The results obtained using test data show that Aimped AI's Medical Machine Translation models are more successful than other translation engines. Below is a table showing the BLEU scores of the models and how they compare to other translation engines:
+
 
 |MedTransModel| Aimped   | DeepL | Google | Opus   |
 |-------------|----------|--------|-------|--------|
@@ -41,10 +42,18 @@ As Aimped AI, we have prepared Medical Machine Translation models for the follow
 - [Turkish-English](https://dev.aimped.ai/models/128)
 
 It is possible to use Medical Machine Translation models via API or through the aimped.ai website. These models translate the incoming data into the target language by breaking it into paragraphs and sentences. Since spelling mistakes and misspellings are not automatically corrected, it is important to ensure that the source language text is of the same quality as the translation.
+```
+import json
+import requests
+
+url = 'http://localhost:8080/v1/models/nlp-health-translation-base-en-de:predict'
+
+headers = {'Content-type': 'application/json', 'Accept': 'text/plain'}
+payload = json.dumps({"text":[text, text2], "data_type":"data_json"})
+response = requests.post(url, data=payload, headers=headers)
+```
 
 In conclusion, Aimped AI's Medical Machine Translation models offer an important tool to overcome language barriers in the healthcare industry. These models enable accurate, fast and comprehensible translation of medical texts, making it easier for healthcare professionals to share information internationally. 
-
-[]: # END: 6f6c7d6f6c7d
 
 
 Test results based on BLEU scores show that Aimped AI performs better than other translation engines in this field. This success reflects the importance of medical translation and the value of Aimped AI's solution in this field.
