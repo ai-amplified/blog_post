@@ -20,7 +20,7 @@ BLEU scores were used to measure the success of the Medical Machine Translation 
 | en-to-pt    | **0.620**    | 0.557  | 0.570 |        |   
 | pt-to-en    | **0.669**    | 0.582  | 0.610 |        |     
 
-Aimped AI olarak, aşağıdaki dil çiftleri için Medical Machine Translation modelleri hazırladık:
+As Aimped AI, we have prepared Medical Machine Translation models for the following language pairs:
 
 - [English-German](https://dev.aimped.ai/models/119)
 - [German-English](https://dev.aimped.ai/models/114)
@@ -37,5 +37,14 @@ Aimped AI olarak, aşağıdaki dil çiftleri için Medical Machine Translation m
 - [English-Turkish](https://dev.aimped.ai/models/145)
 - [Turkish-English](https://dev.aimped.ai/models/128)
 
+It is possible to use Medical Machine Translation models via API or through the aimped.ai website. These models translate the incoming data into the target language by breaking it into paragraphs and sentences. Since spelling mistakes and misspellings are not automatically corrected, it is important to ensure that the source language text is of the same quality as the translation.
+```
+import json
+import requests
 
+url = 'http://localhost:8080/v1/models/nlp-health-translation-base-en-de:predict'
 
+headers = {'Content-type': 'application/json', 'Accept': 'text/plain'}
+payload = json.dumps({"text":[text, text2], "data_type":"data_json"})
+response = requests.post(url, data=payload, headers=headers)
+```
