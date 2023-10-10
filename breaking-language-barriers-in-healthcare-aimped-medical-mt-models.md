@@ -51,8 +51,11 @@ response = requests.post(url, data=payload, headers=headers)
 
 In conclusion, Aimped AI's Medical Machine Translation models offer an important tool to overcome language barriers in the healthcare industry. These models enable accurate, fast and comprehensible translation of medical texts, making it easier for healthcare professionals to share information internationally. 
 
+
 Test results based on BLEU scores show that Aimped AI performs better than other translation engines in this field. This success reflects the importance of medical translation and the value of Aimped AI's solution in this field.
 
+
 Aimped AI helps healthcare professionals communicate better on a global scale, and we remove language barriers by providing easier access to medical knowledge. In the future, we aim to increase the number of domain-specific translation models by working on more languages and specialties. We will continue to work to make healthcare information more accessible and to provide better communication in the healthcare industry.
+
 
 Also, you can check out our [Legal Machine Translation models](https://dev.aimped.ai/models?search=nlp-legal-translation&page=1) and try them out.
