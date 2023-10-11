@@ -41,6 +41,10 @@
         th {
             background-color: #f2f2f2;
         }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
     </style>
 </head>
 <body>
