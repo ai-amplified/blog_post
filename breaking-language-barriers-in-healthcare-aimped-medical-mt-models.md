@@ -46,7 +46,7 @@
 <body>
     <div class="container">
         <h1>Breaking Language Barriers in Healthcare with Aimped AI</h1>
-                <img src="https://example.com/media_files/breaking-language-barriers-in-healthcare-aimped-medical-mt-models/machine-translation-md.png" alt="Medical Machine Translation" />
+                <img src="media_files/breaking-language-barriers-in-healthcare-aimped-medical-mt-models/machine-translation-md.png" alt="Medical Machine Translation" />
 
         <p>Medical Machine Translation models developed by Aimped AI stand out with their success in translating medical texts. These models provide fast and accurate translations by making effective use of medical terminology and technical jargon. Their ability to perfectly define both the medical terms in the source language and their equivalents in the target language makes them an accurate and effective tool for healthcare professionals. Medical translation requires a different level of precision than general translation, as health issues must be understood and communicated accurately. Therefore, medical translators need to be specialized in the medical field. Aimped AI's Medical Machine Translation models are specifically designed to meet this challenge and are being used successfully.</p>
         <p>Medical Machine Translation models are the product of a precise and meticulous work. For the development of these models, articles published in the medical field were meticulously analyzed and parallel articles in different languages were collected. The collected data was preprocessed to identify matching sentences with high translation quality and Medical Machine Translation models were trained using artificial neural networks.</p>
