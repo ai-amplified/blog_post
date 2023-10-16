@@ -6,7 +6,7 @@ In today's digital age, the healthcare industry has witnessed a massive transfor
 <div style="text-align:center">
   <h3>Model's Performance</h3>
   <p>Before we delve into the capabilities of AIMPED, let's take a closer look at the labels it employs and its remarkable performance metrics on the 2014 i2b2 test set.:</p>
-  <img src="media_files/advancing-clinical-data-privacy-with-cutting-edge-deidentification-models/models-performance.png" alt="2014 i2b2 test set" width="200" height="200" />
+  <img src="media_files/advancing-clinical-data-privacy-with-cutting-edge-deidentification-models/models-performance.png" alt="2014 i2b2 test set" width="400" height="400" />
   <p>We used also contextual parser for ACCOUNT, PLATE, LICENSE, URL, EMAIL, FAX, IP, VIN, SSN, DLN labels. As you can see, AIMPED achieves remarkable precision, recall, and F1-score across a wide range of labels, demonstrating its excellence in deidentifying clinical data. AIMPED's performance on the 2014 i2b2 test set has catapulted it to the forefront of deidentification models. With precision and recall scores exceeding 95% in several critical categories, it has not only met but exceeded the state-of-the-art standards. This achievement is a testament to the model's sophistication and efficacy in protecting patient privacy.</p>
 </div>
 
