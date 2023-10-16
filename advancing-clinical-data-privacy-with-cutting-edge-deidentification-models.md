@@ -12,7 +12,7 @@ In today's digital age, the healthcare industry has witnessed a massive transfor
 
 <div style="text-align:center">
   <h3>Clinical Text</h3>
-  <img src="media_files/advancing-clinical-data-privacy-with-cutting-edge-deidentification-models/example-ehr.png" alt="example ehr" width="200" height="200" />
+  <img src="media_files/advancing-clinical-data-privacy-with-cutting-edge-deidentification-models/example-ehr.png" alt="example ehr" width="400" height="300" />
   <p>In the example EHR text, we have various chunks of sensitive information such as the patient's name, date, medical record number, state, city, zip, hospital's name and phone number etc. Let's witness the transformation performed by AIMPED.</p>
 </div>
 
