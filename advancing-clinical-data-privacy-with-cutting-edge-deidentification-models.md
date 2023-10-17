@@ -1,5 +1,5 @@
-<div style="text-align:justify">
 # Advancing Clinical Data Privacy with Cutting-Edge Deidentification Models
+<div style="text-align:justify">
 In today's digital age, the healthcare industry has witnessed a massive transformation with the integration of technology and the digitization of patient records. While this advancement has undoubtedly enhanced patient care and streamlined medical processes, it has also brought forth a pressing concern – the protection of sensitive patient information. The sensitive nature of this data necessitates stringent privacy safeguards to protect patients' rights and comply with regulations like HIPAA (Health Insurance Portability and Accountability Act) in the United States and GDPR (General Data Protection Regulation) in Europe. This is where AIMPED deidentification models step in as an essential safeguard.
 </div>
 ## Aimped's Cutting-Edge Deidentification Models
@@ -37,9 +37,8 @@ In today's digital age, the healthcare industry has witnessed a massive transfor
   <p>In the provided example, we encounter a deidentified clinical text with cleverly crafted fake chunks. These fictitious elements have been seamlessly inserted into the text, effectively replacing sensitive patient information. From the fabricated dates and hospital names to the pseudo-doctor and patient details, this text showcases the efficacy of the deidentification process. By employing such fake chunks, patient privacy is rigorously maintained, allowing for secure data sharing and analysis within the healthcare domain. This approach underscores the importance of protecting patient confidentiality while still enabling healthcare professionals and researchers to work with the data they need for medical research and patient care.</p>
 </div>
 
-<div style="text-align:justify">
 ## Why AIMPED Deidentification Models
-
+<div style="text-align:justify">
 - **High Precision**: AIMPED excels in preserving the integrity of clinical data while effectively deidentifying sensitive information. Its high precision ensures that valuable medical context remains intact.
 
 - **Broad Label Coverage**: AIMPED's extensive label coverage ensures that a wide array of sensitive information, from patient names to medical record numbers, can be deidentified with precision.
@@ -47,10 +46,10 @@ In today's digital age, the healthcare industry has witnessed a massive transfor
 - **Regulatory Compliance**: By surpassing regulatory standards, AIMPED ensures that healthcare institutions can confidently share and analyze data without compromising patient privacy or facing legal consequences.
 
 - **Facilitating Research**: AIMPED accelerates healthcare research by enabling the secure sharing of deidentified data. Researchers can collaborate across institutions and borders, driving innovation in the field.
-
-
+</div> 
 
 ## Conclusion
+<div style="text-align:justify">
 AIMPED offers a wealth of advantages, including high precision in data deidentification, comprehensive label coverage, regulatory compliance, and the facilitation of groundbreaking research. In an age where medical breakthroughs depend on the sharing and analysis of clinical data, AIMPED paves the way for innovation while safeguarding patient confidentiality.
 
 In addition to our English clinical deidentification model, we're excited to announce that AIMPED also offers deidentification models in six additional languages: German, French, Italian, Romanian, Spanish, and Turkish!
