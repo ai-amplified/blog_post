@@ -58,5 +58,5 @@
 
 <p>If you're involved in the healthcare industry, medical research, or data privacy, we invite you to try out our versatile deidentification models. With AIMPED, you can ensure patient data privacy, regulatory compliance, and secure data sharing in multiple languages.</p>
 
-<p>Experience the power of AIMPED's cutting-edge deidentification models and take your clinical data privacy to the next level. Visit [aimped.ai](https://dev.aimped.ai/models) and explore these language-specific models today!</p>
+<p>Experience the power of AIMPED's cutting-edge deidentification models and take your clinical data privacy to the next level. Visit <a href="https://dev.aimped.ai/models?page=1&task=Deidentification">Deidentification Models</a>  and explore these language-specific models today!</p>
 </div> 
