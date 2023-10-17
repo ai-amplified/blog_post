@@ -26,7 +26,7 @@ In today's digital age, the healthcare industry has witnessed a massive transfor
 <div style="text-align:justify">
   <h3>Masked Sensitive Information</h3>
   <img src="media_files/advancing-clinical-data-privacy-with-cutting-edge-deidentification-models/masked-chunks.png" alt="sarcastic-adult-man" width="400" height="300" />
-  <p>we can observe a deidentified clinical text where sensitive information has been carefully masked. Elements such as dates, hospital names, doctor's identities, patient details, addresses, and medical record numbers have all been anonymized to protect patient privacy.</p>
+  <p>We can observe a deidentified clinical text where sensitive information has been carefully masked. Elements such as dates, hospital names, doctor's identities, patient details, addresses, and medical record numbers have all been anonymized to protect patient privacy.</p>
 </div>
 
 
