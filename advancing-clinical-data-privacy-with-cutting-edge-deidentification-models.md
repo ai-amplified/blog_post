@@ -2,6 +2,7 @@
 <div style="text-align:justify">
 <p>In today's digital age, the healthcare industry has witnessed a massive transformation with the integration of technology and the digitization of patient records. While this advancement has undoubtedly enhanced patient care and streamlined medical processes, it has also brought forth a pressing concern – the protection of sensitive patient information. The sensitive nature of this data necessitates stringent privacy safeguards to protect patients' rights and comply with regulations like HIPAA (Health Insurance Portability and Accountability Act) in the United States and GDPR (General Data Protection Regulation) in Europe. This is where AIMPED deidentification models step in as an essential safeguard.</p>
 </div>
+
 ## Aimped's Cutting-Edge Deidentification Models
   
 <div style="text-align:justify">
@@ -39,6 +40,7 @@
 
 ## Why AIMPED Deidentification Models
 <div style="text-align:justify">
+  
 - **High Precision**: <p>AIMPED excels in preserving the integrity of clinical data while effectively deidentifying sensitive information. Its high precision ensures that valuable medical context remains intact.</p>
 
 - **Broad Label Coverage**: <p>AIMPED's extensive label coverage ensures that a wide array of sensitive information, from patient names to medical record numbers, can be deidentified with precision.</p>
