@@ -1,8 +1,5 @@
-<!--
 <html>
 <head>
-<title>Chat with AI to Supercharge Your Language Skills</title>
--->
 <style>
 body {
 font-family: Arial, sans-serif;
