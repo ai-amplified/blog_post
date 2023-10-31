@@ -2,50 +2,50 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Chat with AI to Supercharge Your Language Skills</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.5;
-            margin: 0;
-            padding: 0;
-        }
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-        }
-        h1 {
-            font-size: 36px;
-            margin-bottom: 20px;
-        }
-        h2 {
-            font-size: 24px;
-            margin-bottom: 10px;
-        }
-        p {
-            margin-bottom: 20px;
-            text-align: justify;
-            text-justify: inter-word;
-        }
-        table {
-            border-collapse: collapse;
-            margin-bottom: 20px;
-            width: 100%;
-        }
-        th, td {
-            border: 1px solid #ddd;
-            padding: 8px;
-            text-align: center;
-        }
-        th {
-            background-color: #f2f2f2;
-        }
-        img {
-            max-width: 100%;
-            height: auto;
-        }
-    </style>
+<title>Chat with AI to Supercharge Your Language Skills</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        line-height: 1.5;
+        margin: 0;
+        padding: 0;
+    }
+    .container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+    h1 {
+        font-size: 36px;
+        margin-bottom: 20px;
+    }
+    h2 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+    p {
+        margin-bottom: 20px;
+        text-align: justify;
+        text-justify: inter-word;
+    }
+    table {
+        border-collapse: collapse;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+    th, td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: center;
+    }
+    th {
+        background-color: #f2f2f2;
+    }
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+</style>
 </head>
 <body>
 <div class="container">
@@ -58,33 +58,33 @@ Learning a new language can be a daunting task, but mastering it requires more t
 Aimped, a pioneering developer in the AI realm, has created a set of remarkably human-like chatbots, each with its unique personality and background story. These chatbots are not your run-of-the-mill language learning tools; they are engaging characters you can interact with, offering a range of linguistic experiences. Let's meet the three main characters:   
   
 <div style="text-align:center">
-  <h3>Grumpy Victor</h3>
-  <img src="media_files/improve-language-skills-with-ai-chatbots/grumpy-old-man.png" alt="grumpy-old-man" width="200" height="200" />
-  <p><strong>Age:</strong> 65 years old</p>
-  <p><strong>Personality:</strong> Grumpy, rude, slang, and often angry</p>
-  <p>Victor Black, affectionately known as Grumpy Victor, embodies the archetype of the irritable old man. His responses are laced with sarcasm and frustration, making him an intriguing character to practice with. Whether you imagine him as a hotel receptionist or a McDonald's cashier, Victor's unique demeanor adds an entertaining twist to language learning.</p>
+<h3>Grumpy Victor</h3>
+<img src="media_files/improve-language-skills-with-ai-chatbots/grumpy-old-man.png" alt="grumpy-old-man" width="200" height="200" />
+<p><strong>Age:</strong> 65 years old</p>
+<p><strong>Personality:</strong> Grumpy, rude, slang, and often angry</p>
+<p>Victor Black, affectionately known as Grumpy Victor, embodies the archetype of the irritable old man. His responses are laced with sarcasm and frustration, making him an intriguing character to practice with. Whether you imagine him as a hotel receptionist or a McDonald's cashier, Victor's unique demeanor adds an entertaining twist to language learning.</p>
 </div>
 
 <div style="text-align:center">
 
-  <h3>Friendly Bella</h3>
-  <img src="media_files/improve-language-skills-with-ai-chatbots/friendly-young-lady.png" alt="friendly-young-lady" width="200" height="200" />
-  
-  <p><strong>Age:</strong> 28 years old</p>
-  <p><strong>Personality:</strong> Very kind, respectful, funny, humorous, and joyful</p>
-  <p>Bella White, the epitome of friendliness, is a delightful chat companion. She radiates positivity, making every interaction a joyous experience. Whether you envision her as your Starbucks barista or a chat friend, Bella's warm and friendly nature will undoubtedly make language practice feel like a breeze.</p>
+<h3>Friendly Bella</h3>
+<img src="media_files/improve-language-skills-with-ai-chatbots/friendly-young-lady.png" alt="friendly-young-lady" width="200" height="200" />
+
+<p><strong>Age:</strong> 28 years old</p>
+<p><strong>Personality:</strong> Very kind, respectful, funny, humorous, and joyful</p>
+<p>Bella White, the epitome of friendliness, is a delightful chat companion. She radiates positivity, making every interaction a joyous experience. Whether you envision her as your Starbucks barista or a chat friend, Bella's warm and friendly nature will undoubtedly make language practice feel like a breeze.</p>
 
 </div>
 
 
 <div style="text-align:center">
 
-  <h3>Sarcastic Michael</h3>
-  <img src="media_files/improve-language-skills-with-ai-chatbots/sarcastic-adult-man.png" alt="sarcastic-adult-man" width="200" height="200" />
-  
-  <p><strong>Age:</strong> 33 years old</p>
-  <p><strong>Personality:</strong> Repartee, witty, and masters the art of sarcasm</p>
-  <p>Michael Brown, aka Sarcastic Michael, is your go-to character for witty banter and clever repartee. Engaging with him is like having a conversation with a quick-witted companion. Whether he's your hotel receptionist or an amusing chat buddy, Michael's sharp responses will keep you on your toes while practicing your language skills.</p>
+<h3>Sarcastic Michael</h3>
+<img src="media_files/improve-language-skills-with-ai-chatbots/sarcastic-adult-man.png" alt="sarcastic-adult-man" width="200" height="200" />
+
+<p><strong>Age:</strong> 33 years old</p>
+<p><strong>Personality:</strong> Repartee, witty, and masters the art of sarcasm</p>
+<p>Michael Brown, aka Sarcastic Michael, is your go-to character for witty banter and clever repartee. Engaging with him is like having a conversation with a quick-witted companion. Whether he's your hotel receptionist or an amusing chat buddy, Michael's sharp responses will keep you on your toes while practicing your language skills.</p>
 
 </div>
 
@@ -153,6 +153,6 @@ While language learning is a primary focus, Aimped's chatbots offer more than ju
 In the age of AI, language education has been revolutionized. Aimped's AI chatbots, with their human-like personalities and cutting-edge capabilities, provide an exceptional platform for language learners. Whether you're practicing with Grumpy Victor, Friendly Bella, or Sarcastic Michael, you're not just learning a language; you're engaging in meaningful conversations that enhance your skills and cultural awareness.
 
 Don't miss out on this opportunity to embark on a language learning journey that is not only educational but also enjoyable. Visit [aimped.ai](https://dev.aimped.ai/models) to start your conversation with these captivating chatbots and unlock the world of language and culture in a whole new way.  
-  </div>
+</div>
 </body>
 </html>
