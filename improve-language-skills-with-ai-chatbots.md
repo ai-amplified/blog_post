@@ -4,47 +4,47 @@
 <head>
 <title>Chat with AI to Supercharge Your Language Skills</title>
 <style>
-    body {
-        font-family: Arial, sans-serif;
-        line-height: 1.5;
-        margin: 0;
-        padding: 0;
-    }
-    .container {
-        max-width: 800px;
-        margin: 0 auto;
-        padding: 20px;
-    }
-    h1 {
-        font-size: 36px;
-        margin-bottom: 20px;
-    }
-    h2 {
-        font-size: 24px;
-        margin-bottom: 10px;
-    }
-    p {
-        margin-bottom: 20px;
-        text-align: justify;
-        text-justify: inter-word;
-    }
-    table {
-        border-collapse: collapse;
-        margin-bottom: 20px;
-        width: 100%;
-    }
-    th, td {
-        border: 1px solid #ddd;
-        padding: 8px;
-        text-align: center;
-    }
-    th {
-        background-color: #f2f2f2;
-    }
-    img {
-        max-width: 100%;
-        height: auto;
-    }
+body {
+font-family: Arial, sans-serif;
+line-height: 1.5;
+margin: 0;
+padding: 0;
+}
+.container {
+max-width: 800px;
+margin: 0 auto;
+padding: 20px;
+}
+h1 {
+font-size: 36px;
+margin-bottom: 20px;
+}
+h2 {
+font-size: 24px;
+margin-bottom: 10px;
+}
+p {
+margin-bottom: 20px;
+text-align: justify;
+text-justify: inter-word;
+}
+table {
+border-collapse: collapse;
+margin-bottom: 20px;
+width: 100%;
+}
+th, td {
+border: 1px solid #ddd;
+padding: 8px;
+text-align: center;
+}
+th {
+background-color: #f2f2f2;
+}
+img {
+max-width: 100%;
+height: auto;
+}
 </style>
 </head>
 <body>
