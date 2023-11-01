@@ -1,53 +1,4 @@
-
-<html>
-<head>
-<title>Chat with AI to Supercharge Your Language Skills</title>
-<style>
-body {
-font-family: Arial, sans-serif;
-line-height: 1.5;
-margin: 0;
-padding: 0;
-}
-.container {
-max-width: 800px;
-margin: 0 auto;
-padding: 20px;
-}
-h1 {
-font-size: 36px;
-margin-bottom: 20px;
-}
-h2 {
-font-size: 24px;
-margin-bottom: 10px;
-}
-p {
-margin-bottom: 20px;
-text-align: justify;
-text-justify: inter-word;
-}
-table {
-border-collapse: collapse;
-margin-bottom: 20px;
-width: 100%;
-}
-th, td {
-border: 1px solid #ddd;
-padding: 8px;
-text-align: center;
-}
-th {
-background-color: #f2f2f2;
-}
-img {
-max-width: 100%;
-height: auto;
-}
-</style>
-</head>
-<body>
-<div class="container">
+<div style="text-align: justify;">
 
 # Chat with AI to Supercharge Your Language Skills
 Learning a new language can be a daunting task, but mastering it requires more than just textbooks and grammar drills. To truly excel, you need real-world practice in conversational settings. This is where AI chatbots come into play, providing an accessible and affordable way to hone your language skills by conversing with bots designed to mimic human interaction. In this blog post, we will introduce you to AI chatbots that can help elevate your language abilities to the next level. 
@@ -153,5 +104,3 @@ In the age of AI, language education has been revolutionized. Aimped's AI chatbo
 
 Don't miss out on this opportunity to embark on a language learning journey that is not only educational but also enjoyable. Visit [aimped.ai](https://dev.aimped.ai/models) to start your conversation with these captivating chatbots and unlock the world of language and culture in a whole new way.  
 </div>
-</body>
-</html>
