@@ -29,6 +29,7 @@ After the training and data preparation cycle, we decided the final training par
 **Use areas of Medical Translation models:**
 
 - Medical translation experts using medical translation models:
+  
 • **Terminology Formation: **It can help to translate specific terms. It can be used to obtain information about new or specific terms.
 
 • **Rapid Translation Transactions:** In case of emergency situations or in case of requires speed, medical translation specialists can use these models to make a fast and basic translation. This can enable them to gain time and provide a general understanding immediately.
