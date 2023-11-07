@@ -23,7 +23,7 @@ As Aimped AI, we have dealt with the preparation of medical translation artifici
 After the training and data preparation cycle, we decided the final training parameters and trained the final models. In the table below, you can see the scores obtained by the medical translation models.
 
 
-![Aimped AI](media_files/breaking-language-barriers-in-healthcare-aimped-medical-mt-models/medical-translation-score-comparison (1).svg)
+![Aimped AI](media_files/breaking-language-barriers-in-healthcare-aimped-medical-mt-models/medical-translation-score-comparison.svg)
 
 
 **Use areas of Medical Translation models:**
