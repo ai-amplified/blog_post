@@ -25,8 +25,10 @@ As Aimped AI, we have dealt with the preparation of medical translation artifici
 **Training the models:** The process of training the models is based on a number of experiments such as training et-test et-evaluation and then updating the training arguments according to the results obtained. In addition, according to the evaluation results, we realized that each language pair showed different features. The threshold values we set in the data preparation process and used to filter the data were also models we updated and re-prepared the data.
 After the training and data preparation cycle, we decided the final training parameters and trained the final models. In the table below, you can see the scores obtained by the medical translation models.
 
-
+<div class="responsive-image" style="text-align: center;">
 <img src="media_files/breaking-language-barriers-in-healthcare-aimped-medical-mt-models/medical-translation-score-comparison.svg" alt="Bleu Score Table" style="max-width: 100%; height: auto;" />
+</div>
+
 
 
 **Use areas of Medical Translation models:**
