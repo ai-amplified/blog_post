@@ -1,6 +1,9 @@
 
+Breaking Language Barriers in Healthcare. Aimped AI's Medical Machine Translation Models
+
+
 <div style="text-align: justify;">
-<img src="media_files/breaking-language-barriers-in-healthcare-aimped-medical-mt-models/cover.png" alt="Aimped AI" style="max-width: 100%; height: auto; display: block; margin: 0 auto;" />
+<img src="media_files/breaking-language-barriers-in-healthcare-aimped-medical-mt-models/cover.png" alt="Aimped AI" width="600" height="800"/>
 
 Health is an important and sensitive issue, but it is one of the most important research areas. Day by day, health professionals and researchers find new treatment methods, develop new medicines and treatment methods. The obtained data are published as public in various medical articles platforms. In this way, researchers in different regions of the world are aware of the current developments, can learn and implement new treatment methods quickly or share new knowledge and experiences with their stakeholders.
 
