@@ -51,13 +51,27 @@
     <div class="container">
         <h1>Breaking Language Barriers in Healthcare with Aimped AI</h1>
         <img src="media_files/breaking-language-barriers-in-healthcare-aimped-medical-mt-models/cover.png" alt="Medical Machine Translation">
+
         <p>Health is an important and sensitive issue, but it is one of the most important research areas. Day by day, health professionals and researchers find new treatment methods, develop new medicines and treatment methods. The obtained data are published as public in various medical articles platforms. In this way, researchers in different regions of the world are aware of the current developments, can learn and implement new treatment methods quickly or share new knowledge and experiences with their stakeholders.</p>
-<p>But at this point, communication problem arises. The problem of correct translation of medical findings, discoveries and research results into different languages. Medical translation is an important and sensitive issue and contains differences and field-specific requirements according to bereber general translation. Among different language groups, the correct translation of documents such as clinical findings, patient files, research writings and treatment instructions plays a vital role in terms of keeping health services up-to-date and international medicine literature.</p>
         
-<p>Medical translation does not mean that only one language is translated into another word. It also includes topics such as medical terminology, local cultural differences, and language structures specific to a particular disease or treatment. Therefore, the medical translation process requires expertise and meticulousness.</p>
-<p>Medical translation models are artificial intelligence-based systems developed to overcome this challenge. These models have the ability to translate medical documents among various languages by being faithful to the details that require rapid, accurate and expertise.
-In this context, advantages such as accuracy, speed and wide range of language provided by medical translation models reveal the necessity of health professionals to use these models.</p>
-<p>As Aimped AI, we have dealt with the preparation of medical translation artificial intelligence models with great diligence in order to meet the need in this field. We worked carefully and carefully at every stage such as collecting and preparing the data, deciding on which architecture can be used to train the model.</p>
+        <p>But at this point, communication problem arises. The problem of correct translation of medical findings, discoveries and research results into different languages. Medical translation is an important and sensitive issue and contains differences and field-specific requirements according to bereber general translation. Among different language groups, the correct translation of documents such as clinical findings, patient files, research writings and treatment instructions plays a vital role in terms of keeping health services up-to-date and international medicine literature.</p>
+        
+        <p>Medical translation does not mean that only one language is translated into another word. It also includes topics such as medical terminology, local cultural differences, and language structures specific to a particular disease or treatment. Therefore, the medical translation process requires expertise and meticulousness.</p>
+        
+        <p>Medical translation models are artificial intelligence-based systems developed to overcome this challenge. These models have the ability to translate medical documents among various languages by being faithful to the details that require rapid, accurate and expertise.</p>
+        
+        <p>In this context, advantages such as accuracy, speed and wide range of language provided by medical translation models reveal the necessity of health professionals to use these models.</p>
+
+        <p>As Aimped AI, we have dealt with the preparation of medical translation artificial intelligence models with great diligence in order to meet the need in this field. We worked carefully and carefully at every stage such as collecting and preparing the data, deciding on which architecture can be used to train the model.</p>
+
+        <p>Data Preparation: During the collection of scientific publications published in the field of medicine and the determination of the responses of these scientific publications in source and target language and the preparation of sentence pairs, we developed and used statistical and artificial intelligence-based methods for the most accurate matching of the source and target language translations. In addition to simple statistical techniques such as the number of characters, the number of words and the ratio of them to each other, we used dozens of different techniques until the ratio of the total number of words to the number of unique words reached the similarity of the sentences in the target and source language as letters and words. In addition, using transformers architecture, we created vectors representing the meaning each sentence pair carried, and measured the similarity of meaning between sentence pairs by the cosine similarity method. We filtered our findings according to the threshold values we determined according to the feature of the language pair.
+</p>  
+
+<p>Training the models: The process of training the models is based on a number of experiments such as training et-test et-evaluation and then updating the training arguments according to the results obtained. In addition, according to the evaluation results, we realized that each language pair showed different features. The threshold values we set in the data preparation process and used to filter the data were also models we updated and re-prepared the data.</p>
+
+<p>After the training and data preparation cycle, we decided the final training parameters and trained the final models. In the table below, you can see the scores obtained by the medical translation models.</p>
+
+
         <table>
             <thead>
                 <tr>
