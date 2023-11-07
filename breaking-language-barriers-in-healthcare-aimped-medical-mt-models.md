@@ -1,3 +1,8 @@
+
+
+
+
+
 <img src="media_files/breaking-language-barriers-in-healthcare-aimped-medical-mt-models/cover.png" alt="Aimped AI" style="max-width: 100%; height: auto;" />
 Health is an important and sensitive issue, but it is one of the most important research areas. Day by day, health professionals and researchers find new treatment methods, develop new medicines and treatment methods. The obtained data are published as public in various medical articles platforms. In this way, researchers in different regions of the world are aware of the current developments, can learn and implement new treatment methods quickly or share new knowledge and experiences with their stakeholders.
 
