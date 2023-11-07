@@ -28,7 +28,7 @@ After the training and data preparation cycle, we decided the final training par
 
 **Use areas of Medical Translation models:**
 
-- Medical translation experts using medical translation models:
+- **Medical translation experts using medical translation models:**
   
   -- **Terminology Formation:** It can help to translate specific terms. It can be used to obtain information about new or specific terms.
 
