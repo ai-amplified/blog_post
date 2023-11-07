@@ -30,11 +30,11 @@ After the training and data preparation cycle, we decided the final training par
 
 - Medical translation experts using medical translation models:
   
--- **Terminology Formation:** It can help to translate specific terms. It can be used to obtain information about new or specific terms.
+  -- **Terminology Formation:** It can help to translate specific terms. It can be used to obtain information about new or specific terms.
 
--- **Rapid Translation Transactions:** In case of emergency situations or in case of requires speed, medical translation specialists can use these models to make a fast and basic translation. This can enable them to gain time and provide a general understanding immediately.
+  -- **Rapid Translation Transactions:** In case of emergency situations or in case of requires speed, medical translation specialists can use these models to make a fast and basic translation. This can enable them to gain time and provide a general understanding immediately.
 
--- **Document Analysis:** It can be used to analyze a large amount of documents quickly. This may be useful to create a summary or to identify similarities and differences between documents.
+  -- **Document Analysis:** It can be used to analyze a large amount of documents quickly. This may be useful to create a summary or to identify similarities and differences between documents.
 
 - **Medical Faculty Students:** Medical students can translate medical resources written in various languages in accordance with the medical literature using medical translation models quickly and accurately. In this way, they can gain a wider perspective about global medicine literature and practice.
 
