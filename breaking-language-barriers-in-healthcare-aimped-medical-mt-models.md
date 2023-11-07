@@ -1,10 +1,9 @@
+# Breaking Language Barriers in Healthcare. Aimped AI's Medical Machine Translation Models
 
-Breaking Language Barriers in Healthcare. Aimped AI's Medical Machine Translation Models
 
+<img src="media_files/breaking-language-barriers-in-healthcare-aimped-medical-mt-models/cover.png" alt="Aimped AI" style="max-width: 100%; height: auto;" />
 
 <div style="text-align: justify;">
-<img src="media_files/breaking-language-barriers-in-healthcare-aimped-medical-mt-models/cover.png" alt="Aimped AI" width="600" height="800"/>
-
 Health is an important and sensitive issue, but it is one of the most important research areas. Day by day, health professionals and researchers find new treatment methods, develop new medicines and treatment methods. The obtained data are published as public in various medical articles platforms. In this way, researchers in different regions of the world are aware of the current developments, can learn and implement new treatment methods quickly or share new knowledge and experiences with their stakeholders.
 
 But at this point, communication problem arises. The problem of correct translation of medical findings, discoveries and research results into different languages. Medical translation is an important and sensitive issue and contains differences and field-specific requirements according to bereber general translation. Among different language groups, the correct translation of documents such as clinical findings, patient files, research writings and treatment instructions plays a vital role in terms of keeping health services up-to-date and international medicine literature.
@@ -16,7 +15,6 @@ Medical translation models are artificial intelligence-based systems developed t
 In this context, advantages such as accuracy, speed and wide range of language provided by medical translation models reveal the necessity of health professionals to use these models.
 
 As Aimped AI, we have dealt with the preparation of medical translation artificial intelligence models with great diligence in order to meet the need in this field. We worked carefully and carefully at every stage such as collecting and preparing the data, deciding on which architecture can be used to train the model.
-</div>
 
 **Data Preparation:** During the collection of scientific publications published in the field of medicine and the determination of the responses of these scientific publications in source and target language and the preparation of sentence pairs, we developed and used statistical and artificial intelligence-based methods for the most accurate matching of the source and target language translations. In addition to simple statistical techniques such as the number of characters, the number of words and the ratio of them to each other, we used dozens of different techniques until the ratio of the total number of words to the number of unique words reached the similarity of the sentences in the target and source language as letters and words. In addition, using transformers architecture, we created vectors representing the meaning each sentence pair carried, and measured the similarity of meaning between sentence pairs by the cosine similarity method. We filtered our findings according to the threshold values we determined according to the feature of the language pair.
 
