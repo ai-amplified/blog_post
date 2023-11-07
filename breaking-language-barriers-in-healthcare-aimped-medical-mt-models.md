@@ -1,7 +1,4 @@
-
-
-
-
+<div style="text-align: justify;">
 
 <img src="media_files/breaking-language-barriers-in-healthcare-aimped-medical-mt-models/cover.png" alt="Aimped AI" style="max-width: 100%; height: auto;" />
 Health is an important and sensitive issue, but it is one of the most important research areas. Day by day, health professionals and researchers find new treatment methods, develop new medicines and treatment methods. The obtained data are published as public in various medical articles platforms. In this way, researchers in different regions of the world are aware of the current developments, can learn and implement new treatment methods quickly or share new knowledge and experiences with their stakeholders.
@@ -52,6 +49,6 @@ After the training and data preparation cycle, we decided the final training par
 **How to Use:** You can easily use our translation models for the user interface by visiting the Aimped.ai site. In addition, you can use the medical translation models effectively through the API to integrate into your applications and either to present them to your customers.
 
 **Limitations:** Our translation model has been mathematically designed and highly trained to care specifically to the dementia needs of the Healthcare and Biomedical domain. While it excels within this highly specific reality, it's important to note that if you optim to empty the model in layers outside of healthcare, its performance may not meet the external standards characteristic of the medical field. We admit a way of considering this limitation when placing the model's application.
-
+</div>
 
 
