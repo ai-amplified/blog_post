@@ -1,29 +1,25 @@
-# Breaking Language Barriers in Healthcare. Aimped AI's Medical Machine Translation Models
+# Medical Translation Services: Bridging Language Gaps in Healthcare
 
 
-<img src="media_files/breaking-language-barriers-in-healthcare-aimped-medical-mt-models/cover.png" alt="Aimped AI" style="max-width: 100%; height: auto;" />
+<img src="media_files/breaking-language-barriers-in-healthcare-aimped-medical-mt-models/cover.png" alt="Aimped AI Medical Translation Services" style="max-width: 100%; height: auto;" />
 
 <div style="text-align: justify;">
-Health is an important and sensitive issue, but it is one of the most important research areas. Day by day, health professionals and researchers find new treatment methods, develop new medicines and treatment methods. The obtained data are published as public in various medical articles platforms. In this way, researchers in different regions of the world are aware of the current developments, can learn and implement new treatment methods quickly or share new knowledge and experiences with their stakeholders.
+  
+**Medical document translation** plays a crucial role in the dissemination of health-related information globally. Health professionals and researchers continually advance their understanding, developing new treatments and medicines. The ongoing study of health relies on the swift and accurate translation of information, allowing researchers from diverse regions to access up-to-date knowledge efficiently. The process of medical document translation ensures that this vital information is conveyed accurately in various languages, facilitating seamless collaboration and knowledge exchange in the field of healthcare.
 
-But at this point, communication problem arises. The problem of correct translation of medical findings, discoveries and research results into different languages. Medical translation is an important and sensitive issue and contains differences and field-specific requirements according to bereber general translation. Among different language groups, the correct translation of documents such as clinical findings, patient files, research writings and treatment instructions plays a vital role in terms of keeping health services up-to-date and international medicine literature.
+**Medical translation** is different from general translation and the accurate translation of documents such as clinical findings, patient files, research papers, and treatment guidelines plays a critical role in international medical communication. Medical translation involves not only word-for-word translation but also medical terminology, cultural differences, and disease-specific language structures. As such, it requires expertise and rigor.
 
-Medical translation does not mean that only one language is translated into another word. It also includes topics such as medical terminology, local cultural differences, and language structures specific to a particular disease or treatment. Therefore, the medical translation process requires expertise and meticulousness.
+**Medical machine translation models** are artificial intelligence-based systems developed to overcome these challenges. These models have the ability to translate medical documents quickly, accurately, and faithfully to specialized details between various languages. As Aimped, we have carried out meticulous work on preparing medical translation artificial intelligence models. We worked meticulously at every stage such as collecting and preparing the data and determining the architecture to be used for model training.
 
-Medical translation models are artificial intelligence-based systems developed to overcome this challenge. These models have the ability to translate medical documents among various languages by being faithful to the details that require rapid, accurate and expertise.
+<img src="media_files/breaking-language-barriers-in-healthcare-aimped-medical-mt-models/medical-translation-models.png" alt="Aimped AI Medical Document Translation Service" style="max-width: 100%; height: auto;" />
 
-In this context, advantages such as accuracy, speed and wide range of language provided by medical translation models reveal the necessity of health professionals to use these models.
-
-As Aimped AI, we have dealt with the preparation of medical translation artificial intelligence models with great diligence in order to meet the need in this field. We worked carefully and carefully at every stage such as collecting and preparing the data, deciding on which architecture can be used to train the model.
-<img src="media_files/breaking-language-barriers-in-healthcare-aimped-medical-mt-models/medical-translation-models.png" alt="Bleu Score Table" style="max-width: 100%; height: auto;" />
-
-**Data Preparation:** During the collection of scientific publications published in the field of medicine and the determination of the responses of these scientific publications in source and target language and the preparation of sentence pairs, we developed and used statistical and artificial intelligence-based methods for the most accurate matching of the source and target language translations. In addition to simple statistical techniques such as the number of characters, the number of words and the ratio of them to each other, we used dozens of different techniques until the ratio of the total number of words to the number of unique words reached the similarity of the sentences in the target and source language as letters and words. In addition, using transformers architecture, we created vectors representing the meaning each sentence pair carried, and measured the similarity of meaning between sentence pairs by the cosine similarity method. We filtered our findings according to the threshold values we determined according to the feature of the language pair.
+<h2>Data Preparation:</h2> During the collection of scientific publications published in the field of medicine and the determination of the responses of these scientific publications in source and target language and the preparation of sentence pairs, we developed and used statistical and artificial intelligence-based methods for the most accurate matching of the source and target language translations. In addition to simple statistical techniques such as the number of characters, the number of words and the ratio of them to each other, we used dozens of different techniques until the ratio of the total number of words to the number of unique words reached the similarity of the sentences in the target and source language as letters and words. In addition, using transformers architecture, we created vectors representing the meaning each sentence pair carried, and measured the similarity of meaning between sentence pairs by the cosine similarity method. We filtered our findings according to the threshold values we determined according to the feature of the language pair.
 
 
-**Selection of the train algorithm:** We benefited from transformers architectures to train the models. Among these architectures, we decided that as a result of the tests and researches we made on the architecture of MarineMT, it is a more ideal structure to train the medical translation model.
+<h2>Selection of the train algorithm:</h2> We benefited from transformers architectures to train the models. Among these architectures, we decided that as a result of the tests and researches we made on the architecture of MarineMT, it is a more ideal structure to train the medical translation model.
 
 
-**Training the models:** The process of training the models is based on a number of experiments such as training et-test et-evaluation and then updating the training arguments according to the results obtained. In addition, according to the evaluation results, we realized that each language pair showed different features. The threshold values we set in the data preparation process and used to filter the data were also models we updated and re-prepared the data.
+<h2>Training the models:</h2> The process of training the models is based on a number of experiments such as training et-test et-evaluation and then updating the training arguments according to the results obtained. In addition, according to the evaluation results, we realized that each language pair showed different features. The threshold values we set in the data preparation process and used to filter the data were also models we updated and re-prepared the data.
 After the training and data preparation cycle, we decided the final training parameters and trained the final models. In the table below, you can see the scores obtained by the medical translation models.
 
 <div class="responsive-image" style="text-align: center;">
@@ -54,23 +50,25 @@ After the training and data preparation cycle, we decided the final training par
 **How to Use:** You can easily use our translation models for the user interface by visiting the Aimped.ai site. In addition, you can use the medical translation models effectively through the API to integrate into your applications and either to present them to your customers.
 <img src="media_files/breaking-language-barriers-in-healthcare-aimped-medical-mt-models/en-tr-example.png" alt="Aimped AI" style="max-width: 100%; height: auto;" />
 
-You can access our medical translation models from the list below.
+The list of Aimped AI Medical Translation Models list below. <a href="https://dev.aimped.ai/models?search=nlp-health-translation&page=1">Please click to visit models list.</a>
+
 <ul>
-            <li><a href="https://dev.aimped.ai/models/119">English-German</a></li>
-            <li><a href="https://dev.aimped.ai/models/114">German-English</a></li>
-            <li><a href="https://dev.aimped.ai/models/126">English-French</a></li>
-            <li><a href="https://dev.aimped.ai/models/127">French-English</a></li>
-            <li><a href="https://dev.aimped.ai/models/135">English-Portuguese</a></li>
-            <li><a href="https://dev.aimped.ai/models/136">Portuguese-English</a></li>
-            <li><a href="https://dev.aimped.ai/models/180">English-Romanian</a></li>
-            <li><a href="https://dev.aimped.ai/models/181">Romanian-English</a></li>
-            <li><a href="https://dev.aimped.ai/models/124">English-Chinese</a></li>
-            <li><a href="https://dev.aimped.ai/models/125">Chinese-English</a></li>
-            <li><a href="https://dev.aimped.ai/models/122">English-Spanish</a></li>
-            <li><a href="https://dev.aimped.ai/models/123">Spanish-English</a></li>
-            <li><a href="https://dev.aimped.ai/models/145">English-Turkish</a></li>
-            <li><a href="https://dev.aimped.ai/models/128">Turkish-English</a></li>
-        </ul>
+    <li>English-German</li>
+    <li>German-English</li>
+    <li>English-French</li>
+    <li>French-English</li>
+    <li>English-Portuguese</li>
+    <li>Portuguese-English</li>
+    <li>English-Romanian</li>
+    <li>Romanian-English</li>
+    <li>English-Chinese</li>
+    <li>Chinese-English</li>
+    <li>English-Spanish</li>
+    <li>Spanish-English</li>
+    <li>English-Turkish</li>
+    <li>Turkish-English</li>
+</ul>
+
         
 **You may want to review our <a href="https://dev.aimped.ai/models?search=nlp-legal-translation&page=1">legal translation models.</a>**
 
