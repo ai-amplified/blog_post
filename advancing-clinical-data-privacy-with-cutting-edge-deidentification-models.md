@@ -15,28 +15,28 @@ In the realm of healthcare research, meticulous deidentification data preparatio
 To avail yourself of these models, simply locate them by their designated names on the [AIMPED Hub](https://aimped.ai/models). Whether your requirements demand meticulous linguistic precision with the sub-level models or robust, overarching performance with the base-level counterparts, Aimped's offerings are tailored to accommodate a diverse array of needs.
 
 - English:
-nlp-health-deidentification-sub-base-en
-nlp-health-deidentification-base-en
+    - nlp-health-deidentification-sub-base-en
+    - nlp-health-deidentification-base-en
 - German:
-nlp-health-deidentification-sub-base-de
-nlp-health-deidentification-base-de
+    - nlp-health-deidentification-sub-base-de
+    - nlp-health-deidentification-base-de
 - French:
-nlp-health-deidentification-sub-base-fr
-nlp-health-deidentification-base-fr
+    - nlp-health-deidentification-sub-base-fr
+    - nlp-health-deidentification-base-fr
 - Italian:
-nlp-health-deidentification-sub-base-it
-nlp-health-deidentification-base-it
+    - nlp-health-deidentification-sub-base-it
+    - nlp-health-deidentification-base-it
 - Spanish:
-nlp-health-deidentification-sub-base-es
-nlp-health-deidentification-base-es
+    - nlp-health-deidentification-sub-base-es
+    - nlp-health-deidentification-base-es
 - Turkish:
-nlp-health-deidentification-sub-base-tr
-nlp-health-deidentification-base-tr
+    - nlp-health-deidentification-sub-base-tr
+    - nlp-health-deidentification-base-tr
 - Romanian:
-nlp-health-deidentification-sub-base-ro
-nlp-health-deidentification-base-ro
+    - nlp-health-deidentification-sub-base-ro
+    - nlp-health-deidentification-base-ro
 - Arabic
-nlp-health-deidentification-sub-base-ar
+    - nlp-health-deidentification-sub-base-ar
 
 ### Model's Performance
 
@@ -45,6 +45,12 @@ Before we delve into the capabilities of AIMPED, let's take a closer look at the
 ![Performance metrics on the 2014 i2b2 test set](media_files/advancing-clinical-data-privacy-with-cutting-edge-deidentification-models/models-performance.png)
 
 We used also contextual parser for ACCOUNT, PLATE, LICENSE, URL, EMAIL, FAX, IP, VIN, SSN, DLN labels. As you can see, AIMPED achieves remarkable precision, recall, and F1-score across a wide range of labels, demonstrating its excellence in deidentifying clinical data. AIMPED's performance on the 2014 i2b2 test set has catapulted it to the forefront of deidentification models. With precision and recall scores exceeding 95% in several critical categories, it has not only met but exceeded the state-of-the-art standards. This achievement is a testament to the model's sophistication and efficacy in protecting patient privacy.
+
+All Models' performance metrics:
+![Performance metrics](media_files/advancing-clinical-data-privacy-with-cutting-edge-deidentification-models/models-performance1.png)
+
+![Performance metrics on the 2014 i2b2 test set](media_files/advancing-clinical-data-privacy-with-cutting-edge-deidentification-models/models-performance2.png)
+
 
 ### Efficient Sensitive Chunk Detection
 
@@ -81,6 +87,7 @@ In the provided example, we encounter a deidentified clinical text with cleverly
 
 
 ## Conclusion
+
 AIMPED offers a wealth of advantages, including high precision in data deidentification, comprehensive label coverage, regulatory compliance, and the facilitation of groundbreaking research. In an age where medical breakthroughs depend on the sharing and analysis of clinical data, AIMPED paves the way for innovation while safeguarding patient confidentiality.
 
 If you're involved in the healthcare industry, medical research, or data privacy, we invite you to try out our versatile deidentification models. With AIMPED, you can ensure patient data privacy, regulatory compliance, and secure data sharing in multiple languages.
