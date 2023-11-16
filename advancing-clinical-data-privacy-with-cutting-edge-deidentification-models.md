@@ -77,7 +77,7 @@ We can observe a deidentified clinical text where sensitive information has been
 
 ### Faked Sensitive Information
 
-![](media_files/advancing-clinical-data-privacy-with-cutting-edge-deidentification-models/faked-chunks.png)
+![](media_files/advancing-clinical-data-privacy-with-cutting-edge-deidentification-models/faked-chunk.png)
 
 In the provided example, we encounter a deidentified clinical text with cleverly crafted fake chunks. These fictitious elements have been seamlessly inserted into the text, effectively replacing sensitive patient information. From the fabricated dates and hospital names to the pseudo-doctor and patient details, this text showcases the efficacy of the deidentification process. By employing such fake chunks, patient privacy is rigorously maintained, allowing for secure data sharing and analysis within the healthcare domain. This approach underscores the importance of protecting patient confidentiality while still enabling healthcare professionals and researchers to work with the data they need for medical research and patient care.
 
