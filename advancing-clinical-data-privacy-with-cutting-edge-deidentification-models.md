@@ -1,6 +1,6 @@
 # Advancing Clinical Data Privacy with Cutting-Edge Deidentification Models
 
-![Clinical Deidentification](media_files/advancing-clinical-data-privacy-with-cutting-edge-deidentification-models/baslik.png)
+<img src="media_files/advancing-clinical-data-privacy-with-cutting-edge-deidentification-models/baslik.png" alt="Clinical Deidentification" style="max-width: 100%; height: auto;" />
 
 Patient data plays a crucial role in advancing public health initiatives, expanding preventive health services, preventing diseases, and formulating essential health policies.
 
@@ -52,32 +52,31 @@ To avail yourself of these models, simply locate them by their designated names 
 
 Before we delve into the capabilities of AIMPED, let's take a closer look at the labels it employs and its remarkable performance metrics on the 2014 i2b2 test set.
 
-![Performance metrics on the 2014 i2b2 test set](media_files/advancing-clinical-data-privacy-with-cutting-edge-deidentification-models/models-performance.png)
+<img src="media_files/advancing-clinical-data-privacy-with-cutting-edge-deidentification-models/models-performance.png" alt="Performance metrics on the 2014 i2b2 test set" style="max-width: 100%; height: auto;" />
 
 We used also contextual parser for ACCOUNT, PLATE, LICENSE, URL, EMAIL, FAX, IP, VIN, SSN, DLN labels. As you can see, AIMPED achieves remarkable precision, recall, and F1-score across a wide range of labels, demonstrating its excellence in deidentifying clinical data. AIMPED's performance on the 2014 i2b2 test set has catapulted it to the forefront of deidentification models. With precision and recall scores exceeding 95% in several critical categories, it has not only met but exceeded the state-of-the-art standards. This achievement is a testament to the model's sophistication and efficacy in protecting patient privacy.
 
 All Models' performance metrics:
-![Performance metrics](media_files/advancing-clinical-data-privacy-with-cutting-edge-deidentification-models/models-performance1.png)
 
-![Performance metrics on the 2014 i2b2 test set](media_files/advancing-clinical-data-privacy-with-cutting-edge-deidentification-models/models-performance2.png)
+<img src="media_files/advancing-clinical-data-privacy-with-cutting-edge-deidentification-models/models-performance1.png" alt="Performance metrics" style="max-width: 100%; height: auto;" />
 
+<img src="media_files/advancing-clinical-data-privacy-with-cutting-edge-deidentification-models/models-performance2.png" alt="Performance metrics" style="max-width: 100%; height: auto;" />
 
 ### Efficient Sensitive Chunk Detection
 
-![](media_files/advancing-clinical-data-privacy-with-cutting-edge-deidentification-models/highlighted-chunks.png)
+<img src="media_files/advancing-clinical-data-privacy-with-cutting-edge-deidentification-models/highlighted-chunks.png" alt="Sensitive Information Detection" style="max-width: 100%; height: auto;" />
 
 In the example EHR(Electronic Health Record) text, we have various chunks of sensitive information such as the patient's name, date, medical record number, state, city, zip, hospital's name and phone number etc. We can see a clinical text where the AIMPED clinical deidentification model has efficiently detected and highlighted sensitive informations
 
 ### Masked Sensitive Information
 
-![](media_files/advancing-clinical-data-privacy-with-cutting-edge-deidentification-models/masked-chunks.png)
+<img src="media_files/advancing-clinical-data-privacy-with-cutting-edge-deidentification-models/masked-chunks.png" alt="Masked Sensitive Information" style="max-width: 100%; height: auto;" />
 
 We can observe a deidentified clinical text where sensitive information has been carefully masked. Elements such as dates, hospital names, doctor's identities, patient details, addresses, and medical record numbers have all been anonymized to protect patient privacy.
 
-
 ### Faked Sensitive Information
 
-![](media_files/advancing-clinical-data-privacy-with-cutting-edge-deidentification-models/faked-chunk.png)
+<img src="media_files/advancing-clinical-data-privacy-with-cutting-edge-deidentification-models/faked-chunk.png" alt="Faked Sensitive Information" style="max-width: 100%; height: auto;" />
 
 In the provided example, we encounter a deidentified clinical text with cleverly crafted fake chunks. These fictitious elements have been seamlessly inserted into the text, effectively replacing sensitive patient information. From the fabricated dates and hospital names to the pseudo-doctor and patient details, this text showcases the efficacy of the deidentification process. By employing such fake chunks, patient privacy is rigorously maintained, allowing for secure data sharing and analysis within the healthcare domain. This approach underscores the importance of protecting patient confidentiality while still enabling healthcare professionals and researchers to work with the data they need for medical research and patient care.
 
@@ -94,7 +93,6 @@ In the provided example, we encounter a deidentified clinical text with cleverly
 - **Regulatory Compliance**: By surpassing regulatory standards, AIMPED ensures that healthcare institutions can confidently share and analyze data without compromising patient privacy or facing legal consequences.
 
 - **Facilitating Research**: AIMPED accelerates healthcare research by enabling the secure sharing of deidentified data. Researchers can collaborate across institutions and borders, driving innovation in the field.
-
 
 ## Conclusion
 
