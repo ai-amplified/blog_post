@@ -2,13 +2,23 @@
 
 ![Clinical Deidentification](media_files/advancing-clinical-data-privacy-with-cutting-edge-deidentification-models/baslik.png)
 
-Patient data plays a crucial role in advancing public health initiatives, expanding preventive health services, preventing diseases, and formulating essential health policies. By harnessing comprehensive and anonymized patient information, researchers and healthcare professionals can gain valuable insights into the patterns, prevalence, and risk factors associated with various health conditions. This data-driven approach enables the identification of emerging health trends, facilitates the development of targeted preventive measures, and enhances the overall effectiveness of public health interventions. Moreover, access to accurate patient data empowers policymakers to make informed decisions and allocate resources strategically, thereby optimizing healthcare systems. As we navigate the complexities of modern healthcare, the responsible and ethical use of patient data emerges as a cornerstone for building a robust public health infrastructure that can address current challenges and proactively respond to the evolving health needs of communities.
+Patient data plays a crucial role in advancing public health initiatives, expanding preventive health services, preventing diseases, and formulating essential health policies.
 
-In today's digital age, the healthcare industry has witnessed a massive transformation with the integration of technology and the digitization of patient records. While this advancement has undoubtedly enhanced patient care and streamlined medical processes, it has also brought forth a pressing concern – the protection of sensitive patient information. The sensitive nature of this data necessitates stringent privacy safeguards to protect patients' rights and comply with regulations like **HIPAA** (Health Insurance Portability and Accountability Act) in the United States and **GDPR** (General Data Protection Regulation) in Europe. This is where **AIMPED deidentification models** step in as an essential safeguard.
+By harnessing comprehensive and anonymized patient information, researchers and healthcare professionals can gain valuable insights into the patterns, prevalence, and risk factors associated with various health conditions. This data-driven approach enables the identification of emerging health trends, facilitates the development of targeted preventive measures, and enhances the overall effectiveness of public health interventions. 
+
+Moreover, access to accurate patient data empowers policymakers to make informed decisions and allocate resources strategically, thereby optimizing healthcare systems. As we navigate the complexities of modern healthcare, the responsible and ethical use of patient data emerges as a cornerstone for building a robust public health infrastructure that can address current challenges and proactively respond to the evolving health needs of communities.
+
+In today's digital age, the healthcare industry has witnessed a massive transformation with the integration of technology and the digitization of patient records. While this advancement has undoubtedly enhanced patient care and streamlined medical processes, it has also brought forth a pressing concern – the protection of sensitive patient information. 
+
+The sensitive nature of this data necessitates stringent privacy safeguards to protect patients' rights and comply with regulations like **HIPAA** (Health Insurance Portability and Accountability Act) in the United States and **GDPR** (General Data Protection Regulation) in Europe. This is where **AIMPED deidentification models** step in as an essential safeguard.
 
 ## Aimped's Cutting-Edge Deidentification Models
 
-In the realm of healthcare research, meticulous deidentification data preparation is paramount, and this study exemplifies a rigorous approach to data labeling and preprocessing. The labeling process, conducted by a dedicated department in collaboration with healthcare professionals, adhered to the i2b2-2014 dataset labeling guidelines, ensuring accuracy and consistency. The dataset, a critical foundation for the study, underwent a thoughtful split into 80% for training and 20% for testing purposes, optimizing the model's performance. During the pre-processing phase, the "stanza" library proved instrumental for de-identification tasks in Romanian, while the versatile "NLTK" library was employed for other languages. The utilization of the "word-punc tokenizer" within "NLTK" further enhanced word tokenization. Notably, a stringent evaluation methodology, employing the strict method, was adopted to validate both the correctness of chunks and labels. This commitment to detail and precision showcases the study's dedication to robust data practices, a fundamental aspect of producing reliable and impactful research in the healthcare domain.
+In the realm of healthcare research, meticulous deidentification data preparation is paramount, and this study exemplifies a rigorous approach to data labeling and preprocessing. The labeling process, conducted by a dedicated department in collaboration with healthcare professionals, adhered to the i2b2-2014 dataset labeling guidelines, ensuring accuracy and consistency. 
+
+The dataset, a critical foundation for the study, underwent a thoughtful split into 80% for training and 20% for testing purposes, optimizing the model's performance. During the pre-processing phase, the "stanza" library proved instrumental for de-identification tasks in Romanian, while the versatile "NLTK" library was employed for other languages. The utilization of the "word-punc tokenizer" within "NLTK" further enhanced word tokenization. 
+
+Notably, a stringent evaluation methodology, employing the strict method, was adopted to validate both the correctness of chunks and labels. This commitment to detail and precision showcases the study's dedication to robust data practices, a fundamental aspect of producing reliable and impactful research in the healthcare domain.
 
 ### Meet Aimped's Clinical Deidentification Models:
 
@@ -56,7 +66,7 @@ All Models' performance metrics:
 
 ![](media_files/advancing-clinical-data-privacy-with-cutting-edge-deidentification-models/highlighted-chunks.png)
 
-In the example EHR text, we have various chunks of sensitive information such as the patient's name, date, medical record number, state, city, zip, hospital's name and phone number etc. We can see a clinical text where the AIMPED clinical deidentification model has efficiently detected and highlighted sensitive informations
+In the example EHR(Electronic Health Record) text, we have various chunks of sensitive information such as the patient's name, date, medical record number, state, city, zip, hospital's name and phone number etc. We can see a clinical text where the AIMPED clinical deidentification model has efficiently detected and highlighted sensitive informations
 
 ### Masked Sensitive Information
 
