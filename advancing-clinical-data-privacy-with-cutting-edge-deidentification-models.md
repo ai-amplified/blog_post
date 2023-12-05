@@ -22,7 +22,7 @@ Notably, a stringent evaluation methodology, employing the strict method, was ad
 
 ### Meet Aimped's Clinical Deidentification Models:
 
-To avail yourself of these models, simply locate them by their designated names on the [AIMPED Hub](https://aimped.ai/models). Whether your requirements demand meticulous linguistic precision with the sub-level models or robust, overarching performance with the base-level counterparts, Aimped's offerings are tailored to accommodate a diverse array of needs.
+To avail yourself of these models, simply locate them by their designated names on the [AIMPED Hub](https://dev.aimped.ai//models). Whether your requirements demand meticulous linguistic precision with the sub-level models or robust, overarching performance with the base-level counterparts, Aimped's offerings are tailored to accommodate a diverse array of needs.
 
 - English:
     - nlp-health-deidentification-sub-base-en
@@ -100,5 +100,5 @@ AIMPED offers a wealth of advantages, including high precision in data deidentif
 
 If you're involved in the healthcare industry, medical research, or data privacy, we invite you to try out our versatile deidentification models. With AIMPED, you can ensure patient data privacy, regulatory compliance, and secure data sharing in multiple languages.
 
-Experience the power of AIMPED's cutting-edge deidentification models and take your clinical data privacy to the next level. Visit [aimped.ai](https://aimped.ai/models) and explore these language-specific models today!
+Experience the power of AIMPED's cutting-edge deidentification models and take your clinical data privacy to the next level. Visit [aimped.ai](https://dev.aimped.ai/models) and explore these language-specific models today!
  
