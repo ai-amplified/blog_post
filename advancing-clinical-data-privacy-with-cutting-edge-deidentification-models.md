@@ -22,7 +22,7 @@ Notably, a stringent evaluation methodology, employing the strict method, was ad
 
 ### Meet Aimped's Clinical Deidentification Models:
 
-To avail yourself of these models, simply locate them by their designated names on the [AIMPED Hub](https://dev.aimped.ai//models). Whether your requirements demand meticulous linguistic precision with the sub-level models or robust, overarching performance with the base-level counterparts, Aimped's offerings are tailored to accommodate a diverse array of needs.
+To avail yourself of these models, simply locate them by their designated names on the [AIMPED Hub](https://dev.aimped.ai/models). Whether your requirements demand meticulous linguistic precision with the sub-level models or robust, overarching performance with the base-level counterparts, Aimped's offerings are tailored to accommodate a diverse array of needs.
 
 - English:
     - nlp-health-deidentification-sub-base-en
