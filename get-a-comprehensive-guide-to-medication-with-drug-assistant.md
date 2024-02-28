@@ -31,7 +31,7 @@ DrugBot caters to a diverse range of users across various industries and profess
 ## How to Use:
 To utilize AIMPED's DrugBot, simply navigate to the [Aimped's DrugBot](https://dev.aimped.ai/models/get-a-comprehensive-guide-to-medication-with-drug-assistant-464) page. From there, you can input your medical queries or drug-related questions directly into the chat window. DrugBot will promptly provide accurate information on medications, drug interactions, and medical conditions.
 
-<img src="./result.png" alt="DrugBot Result Sample" width="800" height="800" />
+<img src="media_files/get-a-comprehensive-guide-to-medication-with-drug-assistant/result.png" alt="DrugBot Result Sample" width="1000" height="500" />
 
 
 <div style="text-align: justify;">
@@ -44,7 +44,7 @@ Behind DrugBot's intuitive interface lies a sophisticated technical framework de
     
 ### Understanding the Chatbot Workflow
     
-<img src="./flow.png" alt="Chatbot Workflow" width="900" height="900" />
+<img src="media_files/get-a-comprehensive-guide-to-medication-with-drug-assistant/flow.png" alt="Chatbot Workflow" width="2000" height="500" />
     
     
     
@@ -216,7 +216,9 @@ This Jupyter notebook cell defines a Python class `DrugInfoHelper`, which encaps
     - `update_embeddings` to update embeddings for a list of sections using an embedding model.
     - `get_embedding` to obtain the embedding for a given text using an embedding model.
         - The embedding model utilized is `gte-tiny`. [TaylorAI/gte-tiny](https://huggingface.co/TaylorAI/gte-tiny) stands as an open-sourced embedding model. Preceding its selection, various other models underwent testing. Following careful comparison encompassing factors such as latency, model size, and accuracy, this model emerged as the optimal choice.
-        <img src="./comparison.png" alt="Embedding Model Comparison" width="400" height="400" />
+        <div style="text-align:center">
+        <img src="media_files/get-a-comprehensive-guide-to-medication-with-drug-assistant/comparison.png" alt="Embedding Model Comparison" width="500" height="200" style="margin: auto;"/>
+        </div>
     - `cosine_similarity` to calculate the cosine similarity between two embeddings.
 
 
