@@ -143,6 +143,7 @@ Both of these prompt are used later in this code.
 
 
 ```python
+
 prompt = [
     {"role": "system",
      "content": """
@@ -175,6 +176,7 @@ question_answer_prompt = [
 """
     }
 ]
+
 ```
 
 #### DrugInfoHelper
