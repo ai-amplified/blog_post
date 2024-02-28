@@ -48,7 +48,7 @@ The collaboration with ElevenLabs brings high-quality audio models into the mix,
 
 The use of these sophisticated AI models allows the chatbots to produce both text and voice in a way that closely emulates human speech patterns. This cutting-edge technology doesn't just help you practice your target language, it immerses you in the nuances of real-world interactions.
 
-To begin your language learning adventure, visit the [Aimped models page](https://dev.aimped.ai/models) and start a conversation with your preferred AI character.
+To begin your language learning adventure, visit the [Aimped models page](https://aimped.ai/models) and start a conversation with your preferred AI character.
 
 ## The Advantages of AI Chatbots in Language Learning
 
@@ -65,7 +65,7 @@ Here's why AI chatbots are becoming a go-to method for language learners:
 
 Forget the monotony of traditional drills and embrace conversations that adapt to your skill level and interests. Register to chat with Aimped's AI and see your language abilities soar to new heights. Take advantage of this innovative approach to make learning not just educational, but also truly captivating.
 
-Discover more engaging chatbots at [aimped.ai](https://dev.aimped.ai/models) and expand your linguistic horizons even further.
+Discover more engaging chatbots at [aimped.ai](https://aimped.ai/models) and expand your linguistic horizons even further.
 
 ## Embracing AI for Enhanced Language Education
 
@@ -98,6 +98,6 @@ While the primary focus is language, these chatbots also impart cultural knowled
 
 The dawn of AI has revolutionized the way we learn languages. Aimped's AI chatbots provide a unique and effective way to develop language proficiency. Engage with these characters for a learning experience that's both enjoyable and enlightening.
 
-Start your journey with Aimped's AI chatbots today by visiting [aimped.ai](https://dev.aimped.ai/models), and unlock a new world of language learning filled with enriching conversations and cultural insights.
+Start your journey with Aimped's AI chatbots today by visiting [aimped.ai](https://aimped.ai/models), and unlock a new world of language learning filled with enriching conversations and cultural insights.
 
 </div>
