@@ -31,7 +31,7 @@ DrugBot caters to a diverse range of users across various industries and profess
 ## How to Use:
 To utilize AIMPED's DrugBot, simply navigate to the [Aimped's DrugBot](https://aimped.ai/models/get-a-comprehensive-guide-to-medication-with-drug-assistant-464) page. From there, you can input your medical queries or drug-related questions directly into the chat window. DrugBot will promptly provide accurate information on medications, drug interactions, and medical conditions.
 
-<img src="media_files/get-a-comprehensive-guide-to-medication-with-drug-assistant/result.png" alt="DrugBot Result Sample" width="600" height="293.75" />
+<img src="media_files/get-a-comprehensive-guide-to-medication-with-drug-assistant/result.png" alt="DrugBot Result Sample" width="800" height="350" />
 
 
 <div style="text-align: justify;">
@@ -44,7 +44,7 @@ Behind DrugBot's intuitive interface lies a sophisticated technical framework de
     
 ### Understanding the Chatbot Workflow
     
-<img src="media_files/get-a-comprehensive-guide-to-medication-with-drug-assistant/flow.png" alt="Chatbot Workflow" width="700" height="250" />
+<img src="media_files/get-a-comprehensive-guide-to-medication-with-drug-assistant/flow.png" alt="Chatbot Workflow" width="800" height="380" />
     
     
     
