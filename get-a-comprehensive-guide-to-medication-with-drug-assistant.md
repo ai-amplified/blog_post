@@ -581,9 +581,9 @@ def retry_with_exponential_backoff(
 
 #### DrugBot
 Initializes the class `DrugBot` that serves as a model for text generation. 
-This class represents a text generation model implemented for deployment using Kserve. It integrates with OpenAI's GPT-3.5 model, facilitates text generation based on received prompts, and manages audio generation if required. It utilizes various external services such as OpenAI for text generation, Sentence Transformer for embedding model.
+This class represents a text generation model implemented. It integrates with OpenAI's GPT-3.5 model, facilitates text generation based on received prompts, and manages audio generation if required. It utilizes various external services such as OpenAI for text generation, Sentence Transformer for embedding model.
 
-Overall Functionality:
+##### Overall Functionality:
 The KserveTextGeneration class initializes the model, loads necessary configurations, handles incoming requests for text generation, manages limitations on input size and usage, generates text responses using GPT-3.5, and provides functionalities for audio generation if requested.
 
 
