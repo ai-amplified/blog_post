@@ -65,3 +65,13 @@
     - medicine
     - drugs
     - health condition
+
+- local: talk-to-your-ai-neurological-specialist
+  title: Introducing NeuroBot - Your Gateway to the World of Neurology
+  thumbnail: media_files/talk-to-your-ai-neurological-specialist/talk-to-your-ai-neurological-specialist.png
+  author: Daniyal M.
+  date: 2024-05-07
+  tags:
+    - neurology
+    - neuroscience
+    - brain health
