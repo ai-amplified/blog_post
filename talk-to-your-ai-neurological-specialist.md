@@ -38,7 +38,7 @@ Accessing NeuroBot is simple and straightforward:
 - Input your neurological query or topic of interest into the chat window.
 - AIMPED's NeuroBot will promptly generate a response tailored to your query, providing accurate and insightful information on neurology-related topics.
 
-<img src="media_files/talk-to-your-ai-neurological-specialist/chatbox.png" alt="NeuroBot Result Sample" width="800" height="400" />
+<img src="media_files/talk-to-your-ai-neurological-specialist/chatbox.png" alt="NeuroBot Result Sample" width="800" height="350" />
 
 
 ## Technical Background: How AIMPED's NeuroBot Works
@@ -66,7 +66,7 @@ The cycle of embedding, clustering, and summarization continues iteratively unti
 An important aspect of NeuroBot's tree construction process is its computational efficiency. The system scales linearly in terms of both build time and token expenditure, making it suitable for processing large and complex corpora.
     
 
-<img src="media_files/talk-to-your-ai-neurological-specialist/tree_structure.png" alt="Tree Construction Process" width="800" height="300" />
+<img src="media_files/talk-to-your-ai-neurological-specialist/tree_structure.png" alt="Tree Construction Process" width="800" height="250" />
     
 
 By constructing a comprehensive tree structure, AIMPED's NeuroBot ensures holistic understanding and efficient retrieval of relevant information, ultimately enhancing the quality of responses provided to users.
