@@ -666,4 +666,6 @@ iface.launch()
 
 Even though there are lots of medical language models out there, the medical field is huge, so it's important to be really precise when using fancy technologies like RAG or training LLMs. This helps make sure they're super accurate and reliable. NeuroBot shows us that by focusing on specific areas like neurology, it can be even more accurate than those general medical models. And we are planning to dive into other areas like psychiatry, infection, and oncology. That means there's a bright future ahead for medical chatbots that really know their stuff in different medical fields.
 
-<b>\* Citation:</b> [https://arxiv.org/html/2401.18059v1](https://arxiv.org/html/2401.18059v1)
+<b>\* Citation:</b> 
+  - [arXiv Link](https://arxiv.org/html/2401.18059v1)
+  - Sarthi, Parth et al. "RAPTOR: Recursive Abstractive Processing for Tree-Organized Retrieval." In *International Conference on Learning Representations (ICLR)*, 2024.
