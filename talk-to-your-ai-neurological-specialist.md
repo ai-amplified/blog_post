@@ -122,7 +122,7 @@ Each pair of sentences in BIOSSES comes with a score. To test our models, we cal
 We also measured how long each model took to create embeddings for a text of about 500 words.
 
 So based on the results, we have decided to use the `menadsa/BioS-MiniLM` embedding model. Below is the comparison result image.:
-<img src="media_files/talk-to-your-ai-neurological-specialist/embedding_comparison.png" alt="Embedding Model Comparison Result" width="500" height="170" />
+<img src="media_files/talk-to-your-ai-neurological-specialist/embedd.png" alt="Embedding Model Comparison Result" width="500" height="170" />
 
 #### Utilities
 The code snippet below defines three essential classes for different tree-building tasks, organized within a utilities module named `utils.py`:
