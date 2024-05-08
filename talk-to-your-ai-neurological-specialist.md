@@ -1,4 +1,4 @@
-# AIMPED’s NeuroBot: Your Gateway to the World of Neurology
+# AIMPED’s Neurology Assistant, a Comprehensive Guide for Neurological Insights
 
 <div style="text-align: justify;">
 
