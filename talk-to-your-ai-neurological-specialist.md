@@ -45,7 +45,7 @@ Accessing NeuroBot is simple and straightforward:
 - Input your neurological query or topic of interest into the chat window.
 - AIMPED's NeuroBot will promptly generate a response tailored to your query, providing accurate and insightful information on neurology-related topics.
 
-<img src="./chatbox.png" alt="NeuroBot Result Sample" width="800" height="350" />
+<img src="media_files/talk-to-your-ai-neurological-specialist/chatbox.png" alt="NeuroBot Result Sample" width="800" height="350" />
 
 
 ## Technical Background: How AIMPED's NeuroBot Works
@@ -73,7 +73,7 @@ The cycle of embedding, clustering, and summarization continues iteratively unti
 An important aspect of NeuroBot's tree construction process is its computational efficiency. The system scales linearly in terms of both build time and token expenditure, making it suitable for processing large and complex corpora.
     
 
-<img src="./tree_structure.png" alt="Tree Construction Process" width="800" height="250" />
+<img src="media_files/talk-to-your-ai-neurological-specialist/tree_structure.png" alt="Tree Construction Process" width="800" height="250" />
     
 
 By constructing a comprehensive tree structure, AIMPED's NeuroBot ensures holistic understanding and efficient retrieval of relevant information, ultimately enhancing the quality of responses provided to users.
@@ -122,7 +122,7 @@ Each pair of sentences in BIOSSES comes with a score. To test our models, we cal
 We also measured how long each model took to create embeddings for a text of about 500 words.
 
 So based on the results, we have decided to use the `menadsa/BioS-MiniLM` embedding model. Below is the comparison result image.:
-<img src="./embedding_comparison.png" alt="Embedding Model Comparison Result" width="500" height="170" />
+<img src="media_files/talk-to-your-ai-neurological-specialist/embedding_comparison.png" alt="Embedding Model Comparison Result" width="500" height="170" />
 
 #### Utilities
 The code snippet below defines three essential classes for different tree-building tasks, organized within a utilities module named `utils.py`:
