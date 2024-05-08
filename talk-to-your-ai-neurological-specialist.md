@@ -1,26 +1,33 @@
 # AIMPED’s NeuroBot: Your Gateway to the World of Neurology
 
 <div style="text-align: justify;">
-Take a dive into the world of neurology with AIMPED's NeuroBot as your guide. This advanced chatbot is here to change how you learn about the brain. Get quick and precise answers to your questions, making complex medical stuff easier to understand than ever before.
 
+Take a dive into the world of neurology with AIMPED's NeuroBot as your guide. This advanced chatbot is here to change how you learn about the brain. It utilizes the state-of-the-art Advanced RAG (Retrieval-Augmented Generation) mechanism. AIMPED's NeuroBot swiftly provides accurate responses by combining advanced retrieval methods with sophisticated context understanding. It simplifies complex medical concepts, making them easier to understand and digest.
+  
+
+
+    
+What distinguishes AIMPED's NeuroBot is its unique Recursive Tree Architecture. Unlike typical models, our system uses a carefully organized tree structure for indexing and retrieval, enabling it to understand both broad concepts and fine details accurately. By grouping text chunks and creating summaries at different levels, NeuroBot builds a detailed tree hierarchy from scratch <b>*</b>. This smart setup makes it easy to move through lots of information and give accurate answers to any questions, no matter how complex.
+    
+Join the adventure with AIMPED's NeuroBot as your guide into the world of neurology. Witness how advanced tech and smart design make learning about the brain super exciting and understandable like never before.
 
 ## NeuroBot: Redefining Access to Neurological Information
-Understanding the complexities of neurology might seem overwhelming, whether you're a medical expert or just someone curious about how the brain works. But with AIMPED's NeuroBot, you have a friendly companion to help you navigate this fascinating field. It provides a simple and easy way to explore all things neurological, empowering you to learn with confidence.
+Understanding neurology can be challenging, whether you're a medical expert or just someone curious about how the brain works. But with AIMPED's NeuroBot, you've got a friend to help you out. It makes learning about the brain easy and enjoyable, so you can explore neurology with confidence.
 
 
 ## Who Can Benefit from NeuroBot?
 AIMPED's NeuroBot caters to a diverse audience, including:
 - <b>Medical Professionals:</b> Neurologists, neurosurgeons, physicians, and medical students can rely on NeuroBot to access comprehensive information on neurological conditions, diagnostic procedures, treatment modalities, and more.
-- <b>Patients and Caregivers:</b> Empowering patients and their caregivers with valuable insights into neurological disorders, NeuroBot provides clear explanations, treatment options, and lifestyle recommendations to support their journey towards improved health outcomes.
-- <b>Researchers and Academicss:</b> From conducting literature reviews to exploring cutting-edge research in neurology, NeuroBot serves as a valuable tool for researchers, academics, and students alike, offering access to up-to-date information and educational resources.
-- <b>General Enthusiasts:</b> Whether you're fascinated by the inner workings of the brain or simply curious about neurological phenomena, NeuroBot welcomes users of all backgrounds to delve into the captivating world of neurology.
+- <b>Patients and Caregivers:</b> Help patients and their caregivers with valuable insights into neurological disorders, NeuroBot gives them clear info about brain issues, treatment choices, and tips for living healthier.
+- <b>Researchers and Academicss:</b> From conducting literature reviews to exploring cutting-edge research in neurology, NeuroBot helps them find the latest research and learn more about brain stuff.
+- <b>General Enthusiasts:</b> Even if you're just curious about brains, NeuroBot is for you. It welcomes everyone to explore and learn more about the amazing world of neurology.
 
 
 ## Real-World Scenarios: How NeuroBot Can Help You
-- <b>Diagnostic Assistance:</b> A physician encounters a complex case involving neurological symptoms. With NeuroBot's assistance, the physician can quickly access relevant information to aid in the diagnostic process, ensuring timely and accurate patient care.
-- <b>Patient Education:</b> A newly diagnosed patient seeks to understand their neurological condition and treatment options. NeuroBot provides the patient with accessible explanations and educational materials, empowering them to actively participate in their healthcare journey.
-- <b>Research Support:</b> A neuroscience researcher is conducting a study on a rare neurological disorder. NeuroBot assists the researcher by providing access to pertinent literature, case studies, and clinical trials, facilitating the advancement of knowledge in the field.
-- <b>Educational Tools:</b> A medical student preparing for exams turns to NeuroBot for supplemental learning resources. With its vast repository of information and interactive interface, NeuroBot enhances the student's understanding of complex neurological concepts.
+- <b>Diagnostic Assistance:</b> Imagine a physician has a tricky case with symptoms related to the brain. With NeuroBot's help, the physician can quickly find useful information to help diagnose the problem accurately and promptly treat the patient.
+- <b>Patient Education:</b>  Let's say a patient has just been diagnosed with a brain issue and wants to learn more about it. NeuroBot can explain things in an easy way and share educational stuff so the patient feels more involved in their treatment.
+- <b>Research Support:</b> Picture a neuroscience researcher studying a rare brain problem. NeuroBot can help by giving access to important research papers, case studies, and ongoing studies, helping push knowledge forward in the field.
+- <b>Educational Tools:</b> Think of a student studying for medical exams. NeuroBot can help to make learning about the brain easier and more interactive, helping the student understand complex ideas better.
 
 
 ## Why Choose AIMPED's NeuroBot?
@@ -38,7 +45,7 @@ Accessing NeuroBot is simple and straightforward:
 - Input your neurological query or topic of interest into the chat window.
 - AIMPED's NeuroBot will promptly generate a response tailored to your query, providing accurate and insightful information on neurology-related topics.
 
-<img src="media_files/talk-to-your-ai-neurological-specialist/chatbox.png" alt="NeuroBot Result Sample" width="800" height="350" />
+<img src="./chatbox.png" alt="NeuroBot Result Sample" width="800" height="350" />
 
 
 ## Technical Background: How AIMPED's NeuroBot Works
@@ -46,8 +53,8 @@ AIMPED's NeuroBot operates on an advanced RAG (Recursive Abstractive Generation)
 
 - <b>Query Processing with Function Calling API:</b> When you ask a question, NeuroBot starts working using Anthropic's Function Calling API. First, it checks if your question is about neurology or similar topics. If it is, the API helps NeuroBot figure out more details or answers your question better. But if your question doesn't match, NeuroBot asks you to ask something more related to the topic.
 - <b>Document Retrieval:</b> When user asks NeuroBot about neurology, it looks for helpful documents from a collection of open-source materials about neurology. 
-    - <b>Resource Preparation:</b> We basically have various text collection of documents related to neurology like proprietary and open-source clinical records, PubMed papers, and clinical neurology guidance books etc.
-    - <b> Tree Construction:</b>This collection is organized like a tree. Each part of the tree, called a node, holds important details from the documents. 
+    - <b>Resource Preparation:</b> We basically have various text collection of documents related to neurology like *proprietary and open-source clinical records, PubMed papers, and clinical neurology guidance books etc.*
+    - <b> Tree Construction:</b>This collection is organized like a tree. Each part of the tree, called a node, holds important details from the documents.
     
     To find the right documents, NeuroBot starts by checking the list of these node details. By comparing these details, NeuroBot picks out documents that match your question best. It only brings back the most important and brief information, controlled by settings like `top_k` and `max_token`, so you get what you need quickly. All the picked documents are joined together to give you the full picture, but only up to a certain limit to keep things running smoothly.
 - <b>Response Generation:</b> After finding the right documents, NeuroBot uses Claude LLM to make a helpful response. This response is designed to be easy to understand and helpful, giving accurate answers to your questions about neurology.
@@ -66,7 +73,7 @@ The cycle of embedding, clustering, and summarization continues iteratively unti
 An important aspect of NeuroBot's tree construction process is its computational efficiency. The system scales linearly in terms of both build time and token expenditure, making it suitable for processing large and complex corpora.
     
 
-<img src="media_files/talk-to-your-ai-neurological-specialist/tree_structure.png" alt="Tree Construction Process" width="800" height="250" />
+<img src="./tree_structure.png" alt="Tree Construction Process" width="800" height="250" />
     
 
 By constructing a comprehensive tree structure, AIMPED's NeuroBot ensures holistic understanding and efficient retrieval of relevant information, ultimately enhancing the quality of responses provided to users.
@@ -115,7 +122,7 @@ Each pair of sentences in BIOSSES comes with a score. To test our models, we cal
 We also measured how long each model took to create embeddings for a text of about 500 words.
 
 So based on the results, we have decided to use the `menadsa/BioS-MiniLM` embedding model. Below is the comparison result image.:
-<img src="media_files/talk-to-your-ai-neurological-specialist/embedding_comparison.png" alt="Embedding Model Comparison Result" width="500" height="170" />
+<img src="./embedding_comparison.png" alt="Embedding Model Comparison Result" width="500" height="170" />
 
 #### Utilities
 The code snippet below defines three essential classes for different tree-building tasks, organized within a utilities module named `utils.py`:
@@ -154,11 +161,11 @@ class ClaudeHaikuQAModel(BaseQAModel):
         self.client = anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
 
     @retry(wait=wait_random_exponential(min=1, max=20), stop=stop_after_attempt(6))
-    def _attempt_answer_question(self, context, question, max_tokens=256, stream=False):
+    def _attempt_answer_question(self, context, question, max_tokens=1000, stream=False):
         response = self.client.messages.create(
             max_tokens=max_tokens,
             model=self.model,
-            system="""You are Question Answering Portal. Your job is to answer the question from the given context. Answer the question under 256 tokens without losing any information. Your answer must contain all the information required in the question. Don't mention "Based on the details provided in the context", just return the ANSWER only.""",
+            system="""You are Question Answering Portal. Your job is to answer the question from the given context. Answer the question under 1000 tokens without losing any information. Your answer must contain all the information required in the question. Don't mention "Based on the details provided in the context", just return the ANSWER only.""",
             messages=[
                 {
                     "role": "user",
@@ -169,7 +176,7 @@ class ClaudeHaikuQAModel(BaseQAModel):
         )
         return response
 
-    def answer_question(self, context, question, max_tokens=256):
+    def answer_question(self, context, question, max_tokens=1000):
         try:
             return self._attempt_answer_question(context, question, max_tokens=max_tokens)
         except Exception as e:
@@ -312,13 +319,6 @@ class NeuroAssistant:
         print(f"Stop Reason: {message.stop_reason}")
         print(f"Content: {message.content}")
 
-        input_tokens = message.usage.input_tokens
-        output_tokens = message.usage.output_tokens
-
-        tokens = {"input_tokens": input_tokens, "output_tokens": output_tokens}
-
-        print(f"Tokenssssss>>>>>>: {tokens}")
-
         if message.stop_reason == "tool_use":
             tool_use = next(block for block in message.content if block.type == "tool_use")
             tool_name = tool_use.name
@@ -326,29 +326,23 @@ class NeuroAssistant:
 
             tool_api_result = self.process_tool_call(tool_name, tool_input, RA)
 
-            tool_result_input_tokens = tool_api_result.usage.input_tokens
-            tool_result_output_tokens = tool_api_result.usage.output_tokens
-
-            tokens['input_tokens'] += tool_result_input_tokens
-            tokens['output_tokens'] += tool_result_output_tokens
-
             tool_result = tool_api_result.content[0].text.strip()
 
             response = tool_result
-            return response, tokens
+            return response
 
         else:
             response = message.content[0].text
             print(f"Returning direct response from CLAUDE:\n{response}")
-            return response, tokens
+            return response
 ```
 
 The `get_neuro_info` function in the `NeuroAssistant` class above helps gather neurology information by using the features of the `RetrievalAugmentation` class. It mainly uses the `answer_question_fais`s function, which is a customized part of the `RetrievalAugmentation` class, to manage user questions efficiently.
 
 The `answer_question_faiss` method within the RetrievalAugmentation class performs two essential tasks:
 
-- <b>Information Retrieval:</b> This method invokes the `retrieve_information_from_faiss` method to retrieve relevant context chunks based on the user's query.`
-- <b>Answer Generation:</b> Once the relevant context is obtained, the method utilizes a question-answering model (`qa_model`) to generate an answer to the user's query.
+- Information Retrieval: This method invokes the `retrieve_information_from_faiss` method to retrieve relevant context chunks based on the user's query.`
+- Answer Generation: Once the relevant context is obtained, the method utilizes a question-answering model (`qa_model`) to generate an answer to the user's query.
 
 Below is the relevant code snippet demonstrating the `answer_question_faiss` method within the `RetrievalAugmentation` class:
 
@@ -386,10 +380,10 @@ The `retrieve_information_from_faiss` function in the `TreeRetriever` class help
 
 Here's how the function works:
 
-- <b>Node List Retrieval:</b> It gathers a list of nodes from a designated tree structure.
-- <b>Embedding Preparation:</b> It calculates and stores the embeddings for each node in the node list.
-- <b>Index Setup:</b> Using the FAISS library, it sets up an index based on the computed embeddings.
-- <b>Query Processing:</b> The function handles the user's query, retrieves the most suitable context pieces based on the query using the FAISS index, and combines them to create the final context string.
+- Node List Retrieval: It gathers a list of nodes from a designated tree structure.
+- Embedding Preparation: It calculates and stores the embeddings for each node in the node list.
+- Index Setup: Using the FAISS library, it sets up an index based on the computed embeddings.
+- Query Processing: The function handles the user's query, retrieves the most suitable context pieces based on the query using the FAISS index, and combines them to create the final context string.
 Here's a code snippet demonstrating the implementation of the `retrieve_information_from_fais`s function within the `TreeRetriever` class:
 
 
@@ -671,3 +665,5 @@ iface.launch()
 ## Future Directions: Specialized Subdomains
 
 Even though there are lots of medical language models out there, the medical field is huge, so it's important to be really precise when using fancy technologies like RAG or training LLMs. This helps make sure they're super accurate and reliable. NeuroBot shows us that by focusing on specific areas like neurology, it can be even more accurate than those general medical models. And we are planning to dive into other areas like psychiatry, infection, and oncology. That means there's a bright future ahead for medical chatbots that really know their stuff in different medical fields.
+
+<b>\* Citation:</b> [https://arxiv.org/html/2401.18059v1](https://arxiv.org/html/2401.18059v1)
