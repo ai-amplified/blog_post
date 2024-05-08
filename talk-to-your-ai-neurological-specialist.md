@@ -45,7 +45,7 @@ Accessing NeuroBot is simple and straightforward:
 - Input your neurological query or topic of interest into the chat window.
 - AIMPED's NeuroBot will promptly generate a response tailored to your query, providing accurate and insightful information on neurology-related topics.
 
-<img src="media_files/talk-to-your-ai-neurological-specialist/chatbox.png" alt="NeuroBot Result Sample" width="800" height="350" />
+<img src="media_files/talk-to-your-ai-neurological-specialist/new_chatbox.png" alt="NeuroBot Result Sample" width="800" height="350" />
 
 
 ## Technical Background: How AIMPED's NeuroBot Works
