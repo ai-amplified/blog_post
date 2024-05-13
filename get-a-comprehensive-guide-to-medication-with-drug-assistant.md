@@ -1,4 +1,4 @@
-# Introducing AIMPED's DrugBot: Your Ultimate Medical Companion
+# AIMPED’s Drug Assistant, a Comprehensive Guide for Medication Insights
 
 <div style="text-align: justify;">
 In the fast-paced world of healthcare, access to accurate and timely information is essential. AIMPED's DrugBot emerges as the ultimate solution, offering instant access to comprehensive details about medicines, drugs, and medical conditions. Let's explore how AIMPED's DrugBot is revolutionizing the way users access medical information.
