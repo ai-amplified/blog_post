@@ -36,15 +36,15 @@
     - kubernetes
     - DevOps
 
-- local: medical-translation-services-in-healthcare
-  title: Medical Translation Services - Bridging Language Gaps in Healthcare
-  thumbnail: media_files/breaking-language-barriers-in-healthcare-aimped-medical-mt-models/cover.png
-  author: Forest F.
-  date: 2023-10-10
-  tags:
-    - medical machine translation
-    - medical translation
-    - machine translation
+# - local: medical-translation-services-in-healthcare
+#   title: Medical Translation Services - Bridging Language Gaps in Healthcare
+#   thumbnail: media_files/breaking-language-barriers-in-healthcare-aimped-medical-mt-models/cover.png
+#   author: Forest F.
+#   date: 2023-10-10
+#   tags:
+#     - medical machine translation
+#     - medical translation
+#     - machine translation
      
 - local: advancing-clinical-data-privacy-with-cutting-edge-deidentification-models
   title: Advancing Clinical Data Privacy with Cutting-Edge Deidentification Models
