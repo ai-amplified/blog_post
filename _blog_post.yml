@@ -8,14 +8,14 @@
 #     - education
 #     - language  
 
-# - local: test_post_1
-#   title: Power of Artificial Intelligence
-#   thumbnail: media_files/test_post_1/test_post_1.png
-#   author: Russell C.
-#   date: 2023-09-13
-#   tags:
-#     - AI
-#     - future
+- local: test_post_1
+  title: Power of Artificial Intelligence
+  thumbnail: media_files/test_post_1/test_post_1.png
+  author: Russell C.
+  date: 2023-09-13
+  tags:
+    - AI
+    - future
 
 # - local: test_post_3
 #   title: Optimizing Caching Strategies
