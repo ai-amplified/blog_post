@@ -66,12 +66,12 @@
 #     - drugs
 #     - health condition
 
-# - local: talk-to-your-ai-neurological-specialist
-#   title: AIMPED’s Neurology Assistant, a Comprehensive Guide for Neurological Insights
-#   thumbnail: media_files/talk-to-your-ai-neurological-specialist/talk-to-your-ai-neurological-specialist_2.png
-#   author: Daniyal M.
-#   date: 2024-05-07
-#   tags:
-#     - neurology
-#     - neuroscience
-#     - brain health
+- local: talk-to-your-ai-neurological-specialist
+  title: AIMPED’s Neurology Assistant, a Comprehensive Guide for Neurological Insights
+  thumbnail: media_files/talk-to-your-ai-neurological-specialist/talk-to-your-ai-neurological-specialist_2.png
+  author: Daniyal M.
+  date: 2024-05-07
+  tags:
+    - neurology
+    - neuroscience
+    - brain health
