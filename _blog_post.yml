@@ -8,70 +8,70 @@
 #     - education
 #     - language  
 
-- local: test_post_1
-  title: Power of Artificial Intelligence
-  thumbnail: media_files/test_post_1/test_post_1.png
-  author: Russell C.
-  date: 2023-09-13
-  tags:
-    - AI
-    - future
+# - local: test_post_1
+#   title: Power of Artificial Intelligence
+#   thumbnail: media_files/test_post_1/test_post_1.png
+#   author: Russell C.
+#   date: 2023-09-13
+#   tags:
+#     - AI
+#     - future
 
-- local: test_post_3
-  title: Optimizing Caching Strategies
-  thumbnail: media_files/test_post_3/test_post_3.png
-  author: Russell C.
-  date: 2023-09-15
-  tags:
-    - caching
-    - memory
-    - performance    
+# - local: test_post_3
+#   title: Optimizing Caching Strategies
+#   thumbnail: media_files/test_post_3/test_post_3.png
+#   author: Russell C.
+#   date: 2023-09-15
+#   tags:
+#     - caching
+#     - memory
+#     - performance    
 
-- local: test_post_2
-  title: Kubernetes in DevOps
-  thumbnail: media_files/test_post_2/test_post_2.png
-  author: Russell C.
-  date: 2023-09-17
-  tags:
-    - kubernetes
-    - DevOps
+# - local: test_post_2
+#   title: Kubernetes in DevOps
+#   thumbnail: media_files/test_post_2/test_post_2.png
+#   author: Russell C.
+#   date: 2023-09-17
+#   tags:
+#     - kubernetes
+#     - DevOps
 
-- local: medical-translation-services-in-healthcare
-  title: Medical Translation Services - Bridging Language Gaps in Healthcare
-  thumbnail: media_files/breaking-language-barriers-in-healthcare-aimped-medical-mt-models/cover.png
-  author: Forest F.
-  date: 2023-10-10
-  tags:
-    - medical machine translation
-    - medical translation
-    - machine translation
+# - local: medical-translation-services-in-healthcare
+#   title: Medical Translation Services - Bridging Language Gaps in Healthcare
+#   thumbnail: media_files/breaking-language-barriers-in-healthcare-aimped-medical-mt-models/cover.png
+#   author: Forest F.
+#   date: 2023-10-10
+#   tags:
+#     - medical machine translation
+#     - medical translation
+#     - machine translation
      
-- local: advancing-clinical-data-privacy-with-cutting-edge-deidentification-models
-  title: Advancing Clinical Data Privacy with Cutting-Edge Deidentification Models
-  thumbnail: media_files/advancing-clinical-data-privacy-with-cutting-edge-deidentification-models/highlighted-chunks.png
-  author: Raife H.
-  date: 2023-10-10
-  tags:
-    - deidentification
-    - clinical deidentification
-    - data privacy
+# - local: advancing-clinical-data-privacy-with-cutting-edge-deidentification-models
+#   title: Advancing Clinical Data Privacy with Cutting-Edge Deidentification Models
+#   thumbnail: media_files/advancing-clinical-data-privacy-with-cutting-edge-deidentification-models/highlighted-chunks.png
+#   author: Raife H.
+#   date: 2023-10-10
+#   tags:
+#     - deidentification
+#     - clinical deidentification
+#     - data privacy
     
-- local: get-a-comprehensive-guide-to-medication-with-drug-assistant
-  title: AIMPED’s Drug Assistant, a Comprehensive Guide for Medication Insights
-  thumbnail: media_files/get-a-comprehensive-guide-to-medication-with-drug-assistant/get-a-comprehensive-guide-to-medication-with-drug-assistant.png
-  author: Daniyal M.
-  date: 2024-02-28
-  tags:
-    - medicine
-    - drugs
-    - health condition
+# - local: get-a-comprehensive-guide-to-medication-with-drug-assistant
+#   title: AIMPED’s Drug Assistant, a Comprehensive Guide for Medication Insights
+#   thumbnail: media_files/get-a-comprehensive-guide-to-medication-with-drug-assistant/get-a-comprehensive-guide-to-medication-with-drug-assistant.png
+#   author: Daniyal M.
+#   date: 2024-02-28
+#   tags:
+#     - medicine
+#     - drugs
+#     - health condition
 
-- local: talk-to-your-ai-neurological-specialist
-  title: AIMPED’s Neurology Assistant, a Comprehensive Guide for Neurological Insights
-  thumbnail: media_files/talk-to-your-ai-neurological-specialist/talk-to-your-ai-neurological-specialist_2.png
-  author: Daniyal M.
-  date: 2024-05-07
-  tags:
-    - neurology
-    - neuroscience
-    - brain health
+# - local: talk-to-your-ai-neurological-specialist
+#   title: AIMPED’s Neurology Assistant, a Comprehensive Guide for Neurological Insights
+#   thumbnail: media_files/talk-to-your-ai-neurological-specialist/talk-to-your-ai-neurological-specialist_2.png
+#   author: Daniyal M.
+#   date: 2024-05-07
+#   tags:
+#     - neurology
+#     - neuroscience
+#     - brain health
