@@ -50,7 +50,7 @@ After the training and data preparation cycle, we decided the final training par
 **How to Use:** You can easily use our translation models for the user interface by visiting the Aimped.ai site. In addition, you can use the medical translation models effectively through the API to integrate into your applications and either to present them to your customers.
 <img src="media_files/breaking-language-barriers-in-healthcare-aimped-medical-mt-models/en-tr-example.png" alt="Aimped AI" style="max-width: 100%; height: auto;" />
 
-The list of Aimped AI Medical Translation Models list below. <a href="https://dev.aimped.ai/models?search=nlp-health-translation&page=1">Please click to visit models list.</a>
+The list of Aimped AI Medical Translation Models list below. <a href="https://aimped.ai/models?search=nlp-health-translation&page=1">Please click to visit models list.</a>
 
 <ul>
     <li>English-German</li>
@@ -70,7 +70,7 @@ The list of Aimped AI Medical Translation Models list below. <a href="https://de
 </ul>
 
         
-**You may want to review our <a href="https://dev.aimped.ai/models?search=nlp-legal-translation&page=1">legal translation models.</a>**
+**You may want to review our <a href="https://aimped.ai/models?search=nlp-legal-translation&page=1">legal translation models.</a>**
 
 **Limitations:** Our translation model has been meticulously designed and extensively trained to cater specifically to the demanding needs of the Healthcare and Biomedical domain. While it excels within this highly specialized realm, it's important to note that if you opt to employ the model in domains outside of healthcare, its performance may not meet the exceptional standards characteristic of the medical field. We advise a thoughtful consideration of this limitation when contemplating the model's application.
 
