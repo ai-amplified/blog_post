@@ -41,7 +41,7 @@ AIMPED's NeuroBot caters to a diverse audience, including:
 
 ## How to Use
 Accessing NeuroBot is simple and straightforward:
-- Navigate to the [Aimped’s NeuroBot](https://dev.aimped.ai/models/neurology-assistant-a-comprehensive-guide-for-neurological-insights-491)  webpage.
+- Navigate to the [Aimped’s NeuroBot](https://aimped.ai/models/neurology-assistant-a-comprehensive-guide-for-neurological-insights-491)  webpage.
 - Input your neurological query or topic of interest into the chat window.
 - AIMPED's NeuroBot will promptly generate a response tailored to your query, providing accurate and insightful information on neurology-related topics.
 
