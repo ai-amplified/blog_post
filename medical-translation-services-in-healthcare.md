@@ -73,6 +73,140 @@ Here are the Medical Translation models. <a href="https://aimped.ai/models?searc
         
 **You may want to review our <a href="https://aimped.ai/models?search=nlp-legal-translation&page=1">legal translation models.</a>**
 
+---
+
+## API Tutorial - Bio-Medical and Clinical Text Translation
+
+### Short Description:
+The Bio-Medical and Clinical Text Translation AI model is a specialized tool designed for precise translations of health science and medical documents from one language to another. Developed using the Helsinki/MarianMT neural translation architecture, it underwent intensive training with a diverse, high-quality dataset. This model ensures reliable and accurate translations of various medical documents, benefiting healthcare professionals and researchers by streamlining the complex task of medical language translation.
+
+### Tutorial
+This tutorial will guide you through using the Medical Translation API. By following the steps below, you'll be able to translate medical text from one language to another using the API. The main steps involved are:
+
+1. Creating an access token
+2. Installing the aimped library
+3. Running the API with your credentials and payload
+
+#### Step 1: Create Access Token
+To use the API, you need an access token. Follow these steps to create one:
+
+1. Go to the API Access Token Creation Page. You will land here: Token Creation Page
+2. Select scopes and click on "Create Token".
+3. After clicking this button, you will see the pop-up from where you can copy the User Key and User Secret.
+
+    ![Token Creation Page](https://github.com/ai-amplified/models/tree/main/tutorials/images/token_creation_page.png)
+
+4. Copy the generated access tokens and keep them safe. You'll need them for the next steps.
+
+#### Step 2: Install aimped Library
+To interact with the API, you need to install the aimped Python library. Open your terminal or command prompt and run the following command:
+
+```bash
+!pip install aimped==0.2.2
+```
+
+This command will install the necessary library to communicate with the API.
+
+#### Step 3: Run the API
+Now that you have your access tokens and the library installed, you can run the API to translate text. Follow these steps:
+
+**Set up your credentials:**
+
+```python
+user_key = "YOUR_USER_KEY"
+user_secret = "YOUR_USER_SECRET"
+```
+
+**Import the AimpedAPI class and set the base URL and model ID:**
+
+For Medical Translation of other languages, you just need to change the Model ID. The Model ID can be found under "API Information" in the "API Details" tab on each model card.
+
+```python
+from aimped.services.api import AimpedAPI
+
+BASE_URL = 'https://aimped.ai'
+model_id = "10" # the Model ID can be found under "API Information" in the "API Details" tab on each model card.
+```
+
+**Initialize the API service:**
+
+```python
+api_service = AimpedAPI(user_key, user_secret, {"base_url": BASE_URL})
+```
+
+**Define your payload:**
+
+Define payload according to your input data type.
+
+Choose source and output language based on the model you are using.
+
+**For Text input**
+
+```python
+payload = {
+  "data_type": "data_json",
+  "data_json": {
+    "text": [
+      "The MRI scan revealed significant abnormalities in the patient's frontal lobe, suggesting potential neurological issues.",
+      "The patient should follow a low-sodium diet to manage their hypertension effectively and reduce cardiovascular risk."
+    ],
+    "source_language": "en", # Choose source_language based on your model's source language.
+    "output_language": "tr"  # Choose output_language based on your model's output language.
+  }
+}
+```
+
+**For File Input**
+
+```python
+path_uri_obj = api_service.file_upload(
+    model_id,
+    '/Users/John/Downloads/sample.txt'  # sample file path to upload
+)
+path_uri = path_uri_obj['url']
+
+payload = {
+  "data_type": "data_txt",
+  "extra_fields": {
+    "source_language": "en", # Choose source_language based on your model's source language.
+    "output_language": "tr"  # Choose output_language based on your model's output language.
+  },
+  "data_txt": [
+      path_uri # Path of your text file
+  ]
+}
+```
+
+**Run the model:**
+
+```python
+result = api_service.run_model(model_id, payload)
+```
+
+If you're running this model for the first time or after a long time, you might see the following message:
+
+```python
+print(result)
+{'message': 'We will notify you via email when the instance is ready.'}
+```
+
+Wait for the email notification indicating that the instance is ready. You will be notified on the Aimped as well.
+
+![Notification Page](https://github.com/ai-amplified/models/tree/main/tutorials/images/token_11.png)
+
+You will see this notification, once the instance is ready:
+
+![Notification Page](https://github.com/ai-amplified/models/tree/main/tutorials/images/notification_page2.png)
+
+Once you receive the email or notification on Aimped, run the model again:
+
+```python
+result = api_service.run_model(model_id, payload)
+# Translated Text
+result['output']['data_json']['result']['translated_text']
+['MRG taraması hastanın frontal lobunda belirgin anormallikler gösterdi, bu da potansiyel nörolojik sorunları düşündürdü.',
+ 'Hasta, hipertansiyonlarını etkin bir şekilde yönetmek ve kardiyovasküler riski azaltmak için düşük sodyumlu bir diyet izlemelidir.']
+```
 **Limitations:** Our translation model has been meticulously designed and extensively trained to cater specifically to the demanding needs of the Healthcare and Biomedical domain. While it excels within this highly specialized realm, it's important to note that if you opt to employ the model in domains outside of healthcare, its performance may not meet the exceptional standards characteristic of the medical field. We advise a thoughtful consideration of this limitation when contemplating the model's application.
 </div>
 
