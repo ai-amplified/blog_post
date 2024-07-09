@@ -1,10 +1,12 @@
-# Medical Translation Services: Bridging Language Gaps in Healthcare
+# LLMs-in-the-loop Part-1: Bio-medical and Clinical Text Translation using Expert Small Models.
 
 
 <img src="media_files/breaking-language-barriers-in-healthcare-aimped-medical-mt-models/cover.png" alt="Aimped AI Medical Translation Services" style="max-width: 100%; height: auto;" />
 
 <div style="text-align: justify;">
-  
+
+**Note:** A detailed scientific research paper on the methodology and findings of these Expert Small AI models will be published soon. Stay tuned for more in-depth insights and analysis.
+
 **Medical document translation** plays a crucial role in the dissemination of health-related information globally. Health professionals and researchers continually advance their understanding, developing new treatments and medicines. The ongoing study of health relies on the swift and accurate translation of information, allowing researchers from diverse regions to access up-to-date knowledge efficiently. The process of medical document translation ensures that this vital information is conveyed accurately in various languages, facilitating seamless collaboration and knowledge exchange in the field of healthcare.
 
 **Medical translation** is different from general translation and the accurate translation of documents such as clinical findings, patient files, research papers, and treatment guidelines plays a critical role in international medical communication. Medical translation involves not only word-for-word translation but also medical terminology, cultural differences, and disease-specific language structures. As such, it requires expertise and rigor.
