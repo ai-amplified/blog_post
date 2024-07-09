@@ -94,7 +94,7 @@ To use the API, you need an access token. Follow these steps to create one:
 2. Select scopes and click on "Create Token".
 3. After clicking this button, you will see the pop-up from where you can copy the User Key and User Secret.
 
-    ![Token Creation Page](https://github.com/ai-amplified/models/tree/main/tutorials/images/token_creation_page.png)
+![Token Creation Page]([https://github.com/ai-amplified/models/tree/main/tutorials/images/token_creation_page.png](https://raw.githubusercontent.com/ai-amplified/models/9165e67f3c9f687b5826c78e8896128ca17ea8e7/tutorials/images/token_11.png))
 
 4. Copy the generated access tokens and keep them safe. You'll need them for the next steps.
 
