@@ -16,7 +16,7 @@
 <h2>Data Preparation:</h2> During the collection of scientific publications published in the field of medicine and the determination of the responses of these scientific publications in source and target language and the preparation of sentence pairs, we developed and used statistical and artificial intelligence-based methods for the most accurate matching of the source and target language translations. In addition to simple statistical techniques such as the number of characters, the number of words and the ratio of them to each other, we used dozens of different techniques until the ratio of the total number of words to the number of unique words reached the similarity of the sentences in the target and source language as letters and words. In addition, using transformers architecture, we created vectors representing the meaning each sentence pair carried, and measured the similarity of meaning between sentence pairs by the cosine similarity method. We filtered our findings according to the threshold values we determined according to the feature of the language pair.
 
 
-<h2>Selection of the train algorithm:</h2> We benefited from transformers architectures to train the models. Among these architectures, we decided that as a result of the tests and researches we made on the architecture of MarineMT, it is a more ideal structure to train the medical translation model.
+<h2>Selection of the train algorithm:</h2> We benefited from transformers architectures to train the models. Among these architectures, we decided that as a result of the tests and researches we made on the architecture of <a href="https://huggingface.co/docs/transformers/en/model_doc/marian">Marian MT</a>, it is a more ideal structure to train the medical translation model.
 
 
 <h2>Training the models:</h2> The process of training the models is based on a number of experiments such as training et-test et-evaluation and then updating the training arguments according to the results obtained. In addition, according to the evaluation results, we realized that each language pair showed different features. The threshold values we set in the data preparation process and used to filter the data were also models we updated and re-prepared the data.
@@ -73,7 +73,6 @@ The list of Aimped AI Medical Translation Models list below. <a href="https://ai
 **You may want to review our <a href="https://aimped.ai/models?search=nlp-legal-translation&page=1">legal translation models.</a>**
 
 **Limitations:** Our translation model has been meticulously designed and extensively trained to cater specifically to the demanding needs of the Healthcare and Biomedical domain. While it excels within this highly specialized realm, it's important to note that if you opt to employ the model in domains outside of healthcare, its performance may not meet the exceptional standards characteristic of the medical field. We advise a thoughtful consideration of this limitation when contemplating the model's application.
-
 </div>
 
 
