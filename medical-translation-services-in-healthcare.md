@@ -91,10 +91,11 @@ This tutorial will guide you through using the Medical Translation API. By follo
 To use the API, you need an access token. Follow these steps to create one:
 
 1. Go to the API Access Token Creation Page. You will land here: Token Creation Page
-2. Select scopes and click on "Create Token".
-3. After clicking this button, you will see the pop-up from where you can copy the User Key and User Secret.
+   ![](https://raw.githubusercontent.com/ai-amplified/models/9165e67f3c9f687b5826c78e8896128ca17ea8e7/tutorials/images/token_11.png)
+3. Select scopes and click on "Create Token".
+4. After clicking this button, you will see the pop-up from where you can copy the User Key and User Secret.
 
-![Token Creation Page]([https://github.com/ai-amplified/models/tree/main/tutorials/images/token_creation_page.png](https://raw.githubusercontent.com/ai-amplified/models/9165e67f3c9f687b5826c78e8896128ca17ea8e7/tutorials/images/token_11.png))
+![](https://raw.githubusercontent.com/ai-amplified/models/9165e67f3c9f687b5826c78e8896128ca17ea8e7/tutorials/images/token_22.png)
 
 4. Copy the generated access tokens and keep them safe. You'll need them for the next steps.
 
@@ -192,11 +193,11 @@ print(result)
 
 Wait for the email notification indicating that the instance is ready. You will be notified on the Aimped as well.
 
-![Notification Page](https://github.com/ai-amplified/models/tree/main/tutorials/images/token_11.png)
+![](https://raw.githubusercontent.com/ai-amplified/models/9165e67f3c9f687b5826c78e8896128ca17ea8e7/tutorials/images/notif_1.png)
 
 You will see this notification, once the instance is ready:
 
-![Notification Page](https://github.com/ai-amplified/models/tree/main/tutorials/images/notification_page2.png)
+![](https://raw.githubusercontent.com/ai-amplified/models/9165e67f3c9f687b5826c78e8896128ca17ea8e7/tutorials/images/notif_2.png)
 
 Once you receive the email or notification on Aimped, run the model again:
 
