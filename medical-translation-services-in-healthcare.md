@@ -21,7 +21,6 @@ To further enhance accuracy, we utilized transformer architectures to generate v
 
 <h2>Selection of the train algorithm:</h2> We benefited from transformers architectures to train the models. Among these architectures, we decided that as a result of the tests and researches we made on the architecture of <a href="https://huggingface.co/docs/transformers/en/model_doc/marian">Marian MT</a>, it is a more ideal structure to train the medical translation model.
 
-
 <h2>Training the models:</h2> The process of training the models is based on a number of experiments such as training et-test et-evaluation and then updating the training arguments according to the results obtained. In addition, according to the evaluation results, we realized that each language pair showed different features. The threshold values we set in the data preparation process and used to filter the data were also models we updated and re-prepared the data.
 After the training and data preparation cycle, we decided the final training parameters and trained the final models. In the table below, you can see the scores obtained by the medical translation models.
 
@@ -70,7 +69,7 @@ Here are the Medical Translation models. <a href="https://aimped.ai/models?searc
     <li>Turkish-English</li>
 </ul>
 
-**Developers** can seamlessly integrate our bio-medical and clinical text translation models into their applications or workflows via our API. Here is a quick tutorial to help you get started: https://github.com/ai-amplified/models/blob/main/tutorials/Bio-Medical%20and%20Clinical%20Text%20Translation.ipynb
+**Developers** can seamlessly integrate our bio-medical and clinical text translation models into their applications or workflows via our API. [Here](https://github.com/ai-amplified/models/blob/main/tutorials/Bio-Medical%20and%20Clinical%20Text%20Translation.ipynb) is a quick tutorial to help you get started.
         
 **You may want to review our <a href="https://aimped.ai/models?search=nlp-legal-translation&page=1">legal translation models.</a>**
 
