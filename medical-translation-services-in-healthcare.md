@@ -29,9 +29,6 @@ After the training and data preparation cycle, we decided the final training par
 <img src="media_files/breaking-language-barriers-in-healthcare-aimped-medical-mt-models/medical-translation-score-comparison.svg" alt="Bleu Score Table" style="max-width: 100%; height: auto;" />
 </div>
 
-<iframe src="https://aimped.ai/models" width="90%" height="400"</iframe>
-<p></p>
-
 **Use areas of Medical Translation models:**
 
 - **Medical translation experts using medical translation models:**
@@ -54,7 +51,7 @@ After the training and data preparation cycle, we decided the final training par
 **How to Use:** You can easily use our translation models for the user interface by visiting the Aimped.ai site. In addition, you can use the medical translation models effectively through the API to integrate into your applications and either to present them to your customers.
 <img src="media_files/breaking-language-barriers-in-healthcare-aimped-medical-mt-models/en-tr-example.png" alt="Aimped AI" style="max-width: 100%; height: auto;" />
 
-The list of Aimped AI Medical Translation Models list below. <a href="https://aimped.ai/models?search=nlp-health-translation&page=1">Please click to visit models list.</a>
+Here are the Medical Translation models. <a href="https://aimped.ai/models?search=nlp-health-translation&page=1">Please click to visit model cards.</a>
 
 <ul>
     <li>English-German</li>
@@ -73,6 +70,7 @@ The list of Aimped AI Medical Translation Models list below. <a href="https://ai
     <li>Turkish-English</li>
 </ul>
 
+**Developers** can seamlessly integrate our bio-medical and clinical text translation models into their applications or workflows via our API. Here is a quick tutorial to help you get started: https://github.com/ai-amplified/models/blob/main/tutorials/Bio-Medical%20and%20Clinical%20Text%20Translation.ipynb
         
 **You may want to review our <a href="https://aimped.ai/models?search=nlp-legal-translation&page=1">legal translation models.</a>**
 
