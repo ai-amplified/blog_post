@@ -1,3 +1,14 @@
+ - local: medical-translation-services-in-healthcare
+   title: LLMs-in-the-loop Part-1: Bio-medical and Clinical Text Translation using Expert Small Models
+   thumbnail: media_files/breaking-language-barriers-in-healthcare-aimped-medical-mt-models/cover.png
+   author: Forest F.
+   date: 2024-07-05
+   tags:
+     - medical machine translation
+     - medical translation
+     - machine translation
+     - clinical text translation
+     
 # - local: improve-language-skills-with-ai-chatbots
 #   title: Chat with AI to Supercharge Your Language Skills
 #   thumbnail: media_files/improve-language-skills-with-ai-chatbots/improve-language-skills-with-ai-chatbots.png
@@ -35,18 +46,7 @@
 #   tags:
 #     - kubernetes
 #     - DevOps
-
- - local: medical-translation-services-in-healthcare
-   title: LLMs-in-the-loop Part-1: Bio-medical and Clinical Text Translation using Expert Small Models
-   thumbnail: media_files/breaking-language-barriers-in-healthcare-aimped-medical-mt-models/cover.png
-   author: Forest F.
-   date: 2024-07-05
-   tags:
-     - medical machine translation
-     - medical translation
-     - machine translation
-     - clinical text translation
-     
+    
 # - local: advancing-clinical-data-privacy-with-cutting-edge-deidentification-models
 #   title: Advancing Clinical Data Privacy with Cutting-Edge Deidentification Models
 #   thumbnail: media_files/advancing-clinical-data-privacy-with-cutting-edge-deidentification-models/highlighted-chunks.png
