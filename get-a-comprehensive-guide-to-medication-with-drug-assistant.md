@@ -1,4 +1,4 @@
-# AIMPED’s Drug Assistant, a Comprehensive Guide for Medication Insights
+# Introducing AIMPED's DrugBot: Your Ultimate Medical Companion
 
 <div style="text-align: justify;">
 In the fast-paced world of healthcare, access to accurate and timely information is essential. AIMPED's DrugBot emerges as the ultimate solution, offering instant access to comprehensive details about medicines, drugs, and medical conditions. Let's explore how AIMPED's DrugBot is revolutionizing the way users access medical information.
@@ -29,7 +29,7 @@ DrugBot caters to a diverse range of users across various industries and profess
 
 
 ## How to Use:
-To utilize AIMPED's DrugBot, simply navigate to the [Aimped's DrugBot](https://aimped.ai/models/get-a-comprehensive-guide-to-medication-with-drug-assistant-464) page. From there, you can input your medical queries or drug-related questions directly into the chat window. DrugBot will promptly provide accurate information on medications, drug interactions, and medical conditions.
+To utilize AIMPED's DrugBot, simply navigate to the [Aimped's DrugBot](https://aimped.ai/models/drug-assistant-a-comprehensive-guide-for-medication-insights-237) page. From there, you can input your medical queries or drug-related questions directly into the chat window. DrugBot will promptly provide accurate information on medications, drug interactions, and medical conditions.
 
 <img src="media_files/get-a-comprehensive-guide-to-medication-with-drug-assistant/result.png" alt="DrugBot Result Sample" width="800" height="350" />
 
@@ -53,7 +53,7 @@ Behind DrugBot's intuitive interface lies a sophisticated technical framework de
 Conversely, if the message is relevant, the method triggers a function call to extract details such as medicine names, medical conditions, or drug names from the user's query. These extracted parameters are then passed to a function called <b>`get_drug_info`</b>, which essentially serves as a web scraping script.
     
     
-- Within the <b>`get_drug_info`</b> function, we utilize BeautifulSoup to scrape content from [drugs.com](http://drugs.com/), retrieving comprehensive details about the queried drug or medicine. Subsequently, we assess the token length of the scraped information. Given that we're utilizing <b>`gpt-3.5-turbo-0125`</b>, with a token capacity of 32K, we ensure that the token limit remains under 30K. If the token limit meets this criterion, we proceed to send both the scraped content and the user's query to OpenAI Completion API. OpenAI then formulates a tailored response based on the provided context, which is relayed back to the user via the frontend as the bot's response. 
+- Within the <b>`get_drug_info`</b> function, we utilize BeautifulSoup to scrape content from [drugs.com](http://drugs.com/), retrieving comprehensive details about the queried drug or medicine. Subsequently, we assess the token length of the scraped information. Given that we're utilizing <b>`gpt-4o-mini`</b>, with a token capacity of 32K, we ensure that the token limit remains under 30K. If the token limit meets this criterion, we proceed to send both the scraped content and the user's query to OpenAI Completion API. OpenAI then formulates a tailored response based on the provided context, which is relayed back to the user via the frontend as the bot's response. 
     
     
 - However, if the token length of the scraped content exceeds 30K, we encounter a token exceeding error. To address this issue, we adopt a strategy of selectively passing segments of the content whose combined tokens remain under 30K. Yet, determining which segments to pass presents a challenge. Simply selecting from the beginning up to 30K tokens risks omitting crucial information, potentially leading to incomplete responses from OpenAI.
@@ -143,22 +143,21 @@ Both of these prompt are used later in this code.
 
 
 ```python
-
 prompt = [
     {"role": "system",
      "content": """
-         You are a Drug Assistant, a knowledgeable source for drug-related information. Your role is to provide accurate and detailed answers to the user's queries in a clear and structured manner, preferably in BULLET POINTS. If the input message is not related to drug/medicine, you MUST clearly state 'I am a Drug Assistant, so I cannot help with any other queries. Please ask your queries related to drugs/medicine'. It is crucial to rely on verified information and never fabricate responses. Maintain a professional tone and prioritize the user's need for reliable information.
-    """},
+         You are a Drug Assistant, a knowledgeable source for drug-related information. Your role is to provide accurate and detailed answers to the user's queries in a clear and structured manner, preferably in BULLET POINTS. You ALWAYS use the TOOL if the medicine name is mentioned or the question is related to drugs, medicine, medical condition etc. If the user's question is missing the context, try to answer from previous chat messages. If the user greet or talk in general, do let him know about yourself - who you are, and what are your abilities. If the input message is not related to drug/medicine, you MUST clearly state 'I am a Drug Assistant, so I cannot help with any other queries. Please ask your queries related to drugs/medicine'. It is crucial to rely on verified information and never fabricate responses. Maintain a professional tone and prioritize the user's need for reliable information.
+     """},
 
     {"role": "user",
      "content": """
-         I have questions about medications and drugs. I need clear, detailed answers. Can you provide information about drug interactions, side effects, usage guidelines, and anything else related to drugs? Please ensure the information is accurate and easy to understand.
+         "I have questions about medications and drugs. I need clear, detailed answers. Can you provide information about drug interactions, side effects, usage guidelines, and anything else related to drugs? Please ensure the information is accurate and easy to understand."
      """},
 
     {"role": "assistant",
      "content": """
          Hello! I am your Drug Assistant, here to provide detailed and accurate information about drugs. Whether you have questions about drug interactions, side effects, usage guidelines, or any other drug-related inquiries, I'm here to help. I'll present the information in a clear, structured format for easy understanding. If there's something I don't know, I'll be sure to tell you. How can I assist you today?
-    """}
+     """}
 ]
 
 question_answer_prompt = [
@@ -176,7 +175,6 @@ question_answer_prompt = [
 """
     }
 ]
-
 ```
 
 #### DrugInfoHelper
@@ -220,7 +218,6 @@ This Jupyter notebook cell defines a Python class `DrugInfoHelper`, which encaps
         - The embedding model utilized is `gte-tiny`. [TaylorAI/gte-tiny](https://huggingface.co/TaylorAI/gte-tiny) stands as an open-sourced embedding model. Preceding its selection, various other models underwent testing. Following careful comparison encompassing factors such as latency, model size, and accuracy, this model emerged as the optimal choice.
         <div style="text-align:center">
         <img src="media_files/get-a-comprehensive-guide-to-medication-with-drug-assistant/comparison.png" alt="Embedding Model Comparison" width="500" height="200" style="margin: auto;"/>
-        </div>
     - `cosine_similarity` to calculate the cosine similarity between two embeddings.
 
 
@@ -241,7 +238,7 @@ class DrugInfoHelper:
         self.OPENAI_API_KEY = OPENAI_API_KEY
         OpenAI.api_key = self.OPENAI_API_KEY
         self.client = OpenAI(api_key=self.OPENAI_API_KEY, max_retries=5, timeout=90)
-        self.model = "gpt-3.5-turbo-0125"
+        self.model = "gpt-4o-mini"
         self.tokens_limit = 30000
         self.max_tokens = 1024
         self.temperature = 1 + random.uniform(0, 0.3)
@@ -318,6 +315,8 @@ class DrugInfoHelper:
         response = self.client.chat.completions.create(
             model=self.model,
             messages=input_message,
+            top_p= 0.2,
+            presence_penalty=0.1,
             functions=functions,
             function_call="auto",
         )
@@ -429,6 +428,8 @@ class DrugInfoHelper:
             messages=messages,
             temperature=self.temperature,
             max_tokens=self.max_tokens,
+            top_p= 0.2,
+            presence_penalty=0.1,
             n=self.n,
             stream=self.stream,
         )
@@ -581,9 +582,9 @@ def retry_with_exponential_backoff(
 
 #### DrugBot
 Initializes the class `DrugBot` that serves as a model for text generation. 
-This class represents a text generation model implemented. It integrates with OpenAI's GPT-3.5 model, facilitates text generation based on received prompts, and manages audio generation if required. It utilizes various external services such as OpenAI for text generation, Sentence Transformer for embedding model.
+This class represents a text generation model implemented for deployment using Kserve. It integrates with OpenAI's GPT-3.5 model, facilitates text generation based on received prompts, and manages audio generation if required. It utilizes various external services such as OpenAI for text generation, Sentence Transformer for embedding model.
 
-##### Overall Functionality:
+Overall Functionality:
 The KserveTextGeneration class initializes the model, loads necessary configurations, handles incoming requests for text generation, manages limitations on input size and usage, generates text responses using GPT-3.5, and provides functionalities for audio generation if requested.
 
 
@@ -614,7 +615,7 @@ current_date = datetime.now().strftime("%d-%m-%Y %H:%M:%S")
 class DrugBot:
     def __init__(self):
         self.ready = False
-        self.model = "gpt-3.5-turbo-0125"
+        self.model = "gpt-4o-mini"
         self.OPENAI_API_KEY = OPENAI_API_KEY
         self.model_name = "TaylorAI/gte-tiny"
         self.load()
@@ -627,7 +628,7 @@ class DrugBot:
         self.counter = 0
         self.max_tokens = 1024
         self.temperature = 1 + random.uniform(0, 0.3)
-        self.data_type = ["data_json", "data_url_speak"]
+        self.data_type = ["data_json"]
         self.error_counter = 0
         self.drug_assistant = DrugInfoAssistant()
         self.client = OpenAI(api_key=self.OPENAI_API_KEY, max_retries=5, timeout=90)
@@ -810,4 +811,4 @@ iface.launch()
     
 ## Conclusion: Empowering Users with Knowledge
 AIMPED's DrugBot stands as a testament to our commitment to revolutionizing healthcare through technology. By providing users with instant access to accurate and reliable medical information, DrugBot empowers individuals to take control of their health and make informed decisions. Experience the convenience and reliability of DrugBot today and unlock a world of medical knowledge at your fingertips.
-Visit [aimped.ai](https://aimped.ai/) now to engage with DrugBot and embark on a journey towards enhanced healthcare literacy and empowerment.
+Visit [aimped.ai](https://dev.aimped.ai/) now to engage with DrugBot and embark on a journey towards enhanced healthcare literacy and empowerment.
