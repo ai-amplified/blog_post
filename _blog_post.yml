@@ -57,15 +57,15 @@
 #     - clinical deidentification
 #     - data privacy
     
-- local: get-a-comprehensive-guide-to-medication-with-drug-assistant
-  title: LLM Agent in use - Drug Assistant
-  thumbnail: media_files/get-a-comprehensive-guide-to-medication-with-drug-assistant/get-a-comprehensive-guide-to-medication-with-drug-assistant.png
-  author: Daniyal M.
-  date: 2024-08-12
-  tags:
-    - medicine
-    - drugs
-    - health condition
+# - local: get-a-comprehensive-guide-to-medication-with-drug-assistant
+#   title: LLM Agent in use - Drug Assistant
+#   thumbnail: media_files/get-a-comprehensive-guide-to-medication-with-drug-assistant/get-a-comprehensive-guide-to-medication-with-drug-assistant.png
+#   author: Daniyal M.
+#   date: 2024-08-12
+#   tags:
+#     - medicine
+#     - drugs
+#     - health condition
 
 # - local: talk-to-your-ai-neurological-specialist
 #   title: AIMPED’s Neurology Assistant, a Comprehensive Guide for Neurological Insights
