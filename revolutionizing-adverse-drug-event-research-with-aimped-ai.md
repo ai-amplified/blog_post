@@ -22,7 +22,7 @@ The AIMPED AI ADE pipeline is a powerhouse of integrated models, each designed t
 Together, these models create a seamless pipeline that not only identifies ADEs but also analyzes and visualizes their relationships, offering a holistic view of drug interactions.
 
 
-<img src="flowchart.png" alt="ADE Pipeline"/>
+<img src="media_files/revolutionizing-adverse-drug-event-research-with-aimped-ai/flowchart.png" alt="ADE Pipeline"/>
 
 ## Exploring Real-World Applications: Two Use Case Scenarios
 Now that we’ve introduced the powerful capabilities of the AIMPED AI ADE Pipeline, it's time to see these models in action. In the following sections, we’ll walk you through two detailed use case scenarios that demonstrate how this cutting-edge pipeline can be applied to real-world challenges in ADE analysis. These scenarios will not only highlight the precision and efficiency of AIMPED AI’s models but also provide you with practical insights on how to leverage them in your own research and clinical workflows.
@@ -141,7 +141,7 @@ plt.show()
 
 
     
-![png](output_22_0.png)
+![ADE Classification](media_files/revolutionizing-adverse-drug-event-research-with-aimped-ai/case1_classify.png)
     
 
 
@@ -182,86 +182,9 @@ vizu.display_visualization(text, data)
 
 
 
-<style>
-.non-ner {
-    color: black;
-    line-height: 2.2rem;
-    font-size: 1rem;
-}
-.entity-wrapper {
-    display: inline-flex;
-    justify-content: space-between;
-    text-align: center;
-    border-radius: 5px;
-    margin: 3px 2px;
-    border: 1px solid;
-    overflow: hidden;
-    font-size: 1rem;
-}
-.entity-name {
-    font-size: 0.9rem;
-    line-height: 1.5rem;
-    text-align: center;
-    font-weight: 400;
-    padding: 2px 5px;
-    display: inline-block;
-}
-.entity-type {
-    font-size: 0.9rem;
-    line-height: 1.5rem;
-    color: #fff;
-    text-transform: uppercase;
-    font-weight: 500;
-    display: inline-block;
-    padding: 2px 5px;
-}
-</style>
-<div style="padding: 14px;"><div dir="auto"><span class="non-ner">A 45-year-old patient with metastatic gastric cancer was undergoing chemotherapy, which included the administration of methotrexate and idarubicin. During treatment, the patient developed </span>
-        <span class="entity-wrapper" style="background-color: rgba(92, 92, 224, 0.12); border-color: #5C5CE0;">
-            <span class="entity-name">neurotoxicity</span>
-            <span class="entity-type" style="background-color: #5C5CE0;">ADE</span>
-        </span>
-    <span class="non-ner"> and </span>
-        <span class="entity-wrapper" style="background-color: rgba(92, 92, 224, 0.12); border-color: #5C5CE0;">
-            <span class="entity-name">encephalopathy syndrome</span>
-            <span class="entity-type" style="background-color: #5C5CE0;">ADE</span>
-        </span>
-    <span class="non-ner">, suspected to be induced by </span>
-        <span class="entity-wrapper" style="background-color: rgba(61, 167, 78, 0.12); border-color: #3DA74E;">
-            <span class="entity-name">methotrexate</span>
-            <span class="entity-type" style="background-color: #3DA74E;">DRUG</span>
-        </span>
-    <span class="non-ner">. Additionally, </span>
-        <span class="entity-wrapper" style="background-color: rgba(92, 92, 224, 0.12); border-color: #5C5CE0;">
-            <span class="entity-name">encephalopathy syndrome</span>
-            <span class="entity-type" style="background-color: #5C5CE0;">ADE</span>
-        </span>
-    <span class="non-ner"> appeared to be related to the combination of </span>
-        <span class="entity-wrapper" style="background-color: rgba(61, 167, 78, 0.12); border-color: #3DA74E;">
-            <span class="entity-name">methotrexate</span>
-            <span class="entity-type" style="background-color: #3DA74E;">DRUG</span>
-        </span>
-    <span class="non-ner"> with </span>
-        <span class="entity-wrapper" style="background-color: rgba(61, 167, 78, 0.12); border-color: #3DA74E;">
-            <span class="entity-name">idarubicin</span>
-            <span class="entity-type" style="background-color: #3DA74E;">DRUG</span>
-        </span>
-    <span class="non-ner">. The patient also experienced </span>
-        <span class="entity-wrapper" style="background-color: rgba(92, 92, 224, 0.12); border-color: #5C5CE0;">
-            <span class="entity-name">severe mucositis</span>
-            <span class="entity-type" style="background-color: #5C5CE0;">ADE</span>
-        </span>
-    <span class="non-ner">, </span>
-        <span class="entity-wrapper" style="background-color: rgba(92, 92, 224, 0.12); border-color: #5C5CE0;">
-            <span class="entity-name">prolonged myelosuppression</span>
-            <span class="entity-type" style="background-color: #5C5CE0;">ADE</span>
-        </span>
-    <span class="non-ner">, and desquamating dermatitis, all linked to </span>
-        <span class="entity-wrapper" style="background-color: rgba(61, 167, 78, 0.12); border-color: #3DA74E;">
-            <span class="entity-name">5-fluorouracil</span>
-            <span class="entity-type" style="background-color: #3DA74E;">DRUG</span>
-        </span>
-    <span class="non-ner">. The appearance of these ADEs necessitated urgent intervention, and the medical team adjusted the chemotherapy regimen to mitigate these adverse effects.</span></div></div>
+
+![ADE NER](media_files/revolutionizing-adverse-drug-event-research-with-aimped-ai/case1_ner.png)
+
 
 
 The NER model has successfully extracted key entities like methotrexate, idarubicin, neurotoxicity, and mucositis. These entities are crucial for a comprehensive understanding of the patient's treatment and the associated risks.
@@ -313,7 +236,7 @@ display(SVG(target_path))
 
 
     
-![svg](output_33_0.svg)
+![ADE Relation](media_files/revolutionizing-adverse-drug-event-research-with-aimped-ai/case1_relation.svg)
     
 
 
@@ -438,7 +361,7 @@ plt.show()
 
 
     
-![png](output_49_0.png)
+![ADE Classification](media_files/revolutionizing-adverse-drug-event-research-with-aimped-ai/case2_classify.png)
     
 
 
@@ -478,97 +401,7 @@ vizu.display_visualization(text, data)
 ```
 
 
-
-<style>
-.non-ner {
-    color: black;
-    line-height: 2.2rem;
-    font-size: 1rem;
-}
-.entity-wrapper {
-    display: inline-flex;
-    justify-content: space-between;
-    text-align: center;
-    border-radius: 5px;
-    margin: 3px 2px;
-    border: 1px solid;
-    overflow: hidden;
-    font-size: 1rem;
-}
-.entity-name {
-    font-size: 0.9rem;
-    line-height: 1.5rem;
-    text-align: center;
-    font-weight: 400;
-    padding: 2px 5px;
-    display: inline-block;
-}
-.entity-type {
-    font-size: 0.9rem;
-    line-height: 1.5rem;
-    color: #fff;
-    text-transform: uppercase;
-    font-weight: 500;
-    display: inline-block;
-    padding: 2px 5px;
-}
-</style>
-<div style="padding: 14px;"><div dir="auto"><span class="non-ner">A 45-year-old patient with metastatic gastric cancer</span>
-        <span class="entity-wrapper" style="background-color: rgba(92, 92, 224, 0.12); border-color: #5C5CE0;">
-            <span class="entity-name">dihydrotachysterol</span>
-            <span class="entity-type" style="background-color: #5C5CE0;">DRUG</span>
-        </span>
-    <span class="non-ner">emotherapy,</span>
-        <span class="entity-wrapper" style="background-color: rgba(61, 167, 78, 0.12); border-color: #3DA74E;">
-            <span class="entity-name">increased calcium release</span>
-            <span class="entity-type" style="background-color: #3DA74E;">ADE</span>
-        </span>
-    <span class="non-ner">istration of methotrexate and idar</span>
-        <span class="entity-wrapper" style="background-color: rgba(61, 167, 78, 0.12); border-color: #3DA74E;">
-            <span class="entity-name">severe hypercalcemia</span>
-            <span class="entity-type" style="background-color: #3DA74E;">ADE</span>
-        </span>
-    <span class="non-ner">ment, the patient developed neurotoxicity and encephalopathy syn</span>
-        <span class="entity-wrapper" style="background-color: rgba(92, 92, 224, 0.12); border-color: #5C5CE0;">
-            <span class="entity-name">rifampicin</span>
-            <span class="entity-type" style="background-color: #5C5CE0;">DRUG</span>
-        </span>
-    <span class="non-ner">pected to be induced by methotrexat</span>
-        <span class="entity-wrapper" style="background-color: rgba(92, 92, 224, 0.12); border-color: #5C5CE0;">
-            <span class="entity-name">dihydrotachysterol</span>
-            <span class="entity-type" style="background-color: #5C5CE0;">DRUG</span>
-        </span>
-    <span class="non-ner">ncephalopathy syndrom</span>
-        <span class="entity-wrapper" style="background-color: rgba(61, 167, 78, 0.12); border-color: #3DA74E;">
-            <span class="entity-name">adverse drug events</span>
-            <span class="entity-type" style="background-color: #3DA74E;">ADE</span>
-        </span>
-    <span class="non-ner">la</span>
-        <span class="entity-wrapper" style="background-color: rgba(61, 167, 78, 0.12); border-color: #3DA74E;">
-            <span class="entity-name">ADEs</span>
-            <span class="entity-type" style="background-color: #3DA74E;">ADE</span>
-        </span>
-    <span class="non-ner">to the combination of methotrexate with idarubicin. The</span>
-        <span class="entity-wrapper" style="background-color: rgba(61, 167, 78, 0.12); border-color: #3DA74E;">
-            <span class="entity-name">neurotoxicity</span>
-            <span class="entity-type" style="background-color: #3DA74E;">ADE</span>
-        </span>
-    <span class="non-ner"> experie</span>
-        <span class="entity-wrapper" style="background-color: rgba(92, 92, 224, 0.12); border-color: #5C5CE0;">
-            <span class="entity-name">5-fluorouracil</span>
-            <span class="entity-type" style="background-color: #5C5CE0;">DRUG</span>
-        </span>
-    <span class="non-ner">cosit</span>
-        <span class="entity-wrapper" style="background-color: rgba(61, 167, 78, 0.12); border-color: #3DA74E;">
-            <span class="entity-name">granulocytopenia</span>
-            <span class="entity-type" style="background-color: #3DA74E;">ADE</span>
-        </span>
-    <span class="non-ner">elosuppression, a</span>
-        <span class="entity-wrapper" style="background-color: rgba(92, 92, 224, 0.12); border-color: #5C5CE0;">
-            <span class="entity-name">clozapine</span>
-            <span class="entity-type" style="background-color: #5C5CE0;">DRUG</span>
-        </span>
-    <span class="non-ner">mating dermatitis, all linked to 5-fluorouracil. The appearance of these ADEs necessitated urgent intervention, and the medical team adjusted the chemotherapy regimen to mitigate these adverse effects.</span></div></div>
+![ADE NER](media_files/revolutionizing-adverse-drug-event-research-with-aimped-ai/case2_ner.png)
 
 
 The NER model has successfully extracted the key drug and ADE entities, providing a clear overview of the critical components within the case report.
@@ -622,7 +455,7 @@ display(SVG(target_path))
 
 
     
-![svg](output_60_0.svg)
+![ADE Relation](media_files/revolutionizing-adverse-drug-event-research-with-aimped-ai/case2_relation.svg)
     
 
 
