@@ -22,7 +22,11 @@ The AIMPED AI ADE pipeline is a powerhouse of integrated models, each designed t
 Together, these models create a seamless pipeline that not only identifies ADEs but also analyzes and visualizes their relationships, offering a holistic view of drug interactions.
 
 
+## Visualizing the ADE Pipeline: A Comprehensive Workflow
+The flowchart below illustrates the step-by-step process of the AIMPED AI ADE Pipeline. It visually encapsulates the entire workflow, from initial input and language translation to classification, entity extraction, and the mapping of drug-ADE relationships. This diagram serves as a guide to understanding how each model in the pipeline contributes to a thorough analysis of adverse drug events in medical case reports.
+
 <img src="media_files/revolutionizing-adverse-drug-event-research-with-aimped-ai/flowchart.png" alt="ADE Pipeline"/>
+
 
 ## Exploring Real-World Applications: Two Use Case Scenarios
 Now that we’ve introduced the powerful capabilities of the AIMPED AI ADE Pipeline, it's time to see these models in action. In the following sections, we’ll walk you through two detailed use case scenarios that demonstrate how this cutting-edge pipeline can be applied to real-world challenges in ADE analysis. These scenarios will not only highlight the precision and efficiency of AIMPED AI’s models but also provide you with practical insights on how to leverage them in your own research and clinical workflows.
