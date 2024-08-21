@@ -401,7 +401,7 @@ vizu.display_visualization(text, data)
 ```
 
 
-![ADE NER](media_files/revolutionizing-adverse-drug-event-research-with-aimped-ai/case2_ner.png)
+![ADE NER](media_files/revolutionizing-adverse-drug-event-research-with-aimped-ai/case2_ner_modified.png)
 
 
 The NER model has successfully extracted the key drug and ADE entities, providing a clear overview of the critical components within the case report.
